@@ -1,0 +1,22015 @@
+window.QUESTION_DATA = {
+  "diagram": [
+    {
+      "id": "DGM_L1_0001",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Price ceiling with shortage: For the market of oil, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for oil and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0002",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Subsidy to producers: For the market of steel, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of steel, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0003",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Negative externality of production: For the market of tourism, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for tourism, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0004",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Tax on producers: For the market of sugar, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of sugar, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0005",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Demand and supply equilibrium: For the market of gasoline, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for gasoline using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0006",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Demand and supply equilibrium: For the market of transportation, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for transportation using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0007",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Market for foreign currency: For the market of rice, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for rice currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0008",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Price ceiling with shortage: For the market of technology, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for technology and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0009",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Tax on producers: For the market of coal, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of coal, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0010",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Positive externality of consumption: For the market of bread, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for bread, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0011",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Unit elastic demand curve: For the market of labour, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for labour, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0012",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Perfectly inelastic supply: For the market of gasoline, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for gasoline and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0013",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Negative externality of production: For the market of technology, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for technology, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0014",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Positive externality of consumption: For the market of tourism, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for tourism, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0015",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Tax on producers: For the market of rice, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of rice, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0016",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Tax on producers: For the market of steel, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of steel, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0017",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Unit elastic demand curve: For the market of electricity, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for electricity, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0018",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Tax on producers: For the market of transportation, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of transportation, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0019",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Demand and supply equilibrium: For the market of tourism, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for tourism using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0020",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Positive externality of consumption: For the market of water, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for water, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0021",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Positive externality of consumption: For the market of labour, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for labour, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0022",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Demand and supply equilibrium: For the market of transportation, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for transportation using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0023",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Price floor with surplus: For the market of sugar, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for sugar and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0024",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Negative externality of production: For the market of education, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for education, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0025",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Price floor with surplus: For the market of steel, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for steel and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0026",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Price ceiling with shortage: For the market of labour, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for labour and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0027",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Price floor with surplus: For the market of education, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for education and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0028",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Positive externality of consumption: For the market of technology, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for technology, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0029",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Negative externality of production: For the market of tourism, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for tourism, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0030",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Positive externality of consumption: For the market of bread, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for bread, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0031",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Demand and supply equilibrium: For the market of tourism, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for tourism using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0032",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Tax on producers: For the market of gasoline, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of gasoline, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0033",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Perfectly inelastic supply: For the market of transportation, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for transportation and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0034",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Unit elastic demand curve: For the market of labour, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for labour, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0035",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Price floor with surplus: For the market of technology, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for technology and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0036",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Tax on producers: For the market of transportation, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of transportation, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0037",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Unit elastic demand curve: For the market of gasoline, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for gasoline, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0038",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Perfectly inelastic supply: For the market of housing, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for housing and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0039",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Unit elastic demand curve: For the market of housing, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for housing, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0040",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Negative externality of production: For the market of milk, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for milk, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0041",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Perfectly inelastic supply: For the market of wheat, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for wheat and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0042",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Price floor with surplus: For the market of tourism, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for tourism and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0043",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Market for foreign currency: For the market of transportation, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for transportation currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0044",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Positive externality of consumption: For the market of water, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for water, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0045",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Subsidy to producers: For the market of water, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of water, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0046",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Tax on producers: For the market of labour, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of labour, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0047",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Demand and supply equilibrium: For the market of water, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for water using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0048",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Price ceiling with shortage: For the market of wheat, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for wheat and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0049",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Market for foreign currency: For the market of transportation, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for transportation currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0050",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Negative externality of production: For the market of steel, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for steel, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0051",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Unit elastic demand curve: For the market of healthcare, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for healthcare, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0052",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Tax on producers: For the market of bread, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of bread, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0053",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Price floor with surplus: For the market of rice, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for rice and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0054",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Positive externality of consumption: For the market of housing, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for housing, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0055",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Price floor with surplus: For the market of electricity, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for electricity and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0056",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Unit elastic demand curve: For the market of rice, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for rice, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0057",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Unit elastic demand curve: For the market of housing, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for housing, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0058",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Price ceiling with shortage: For the market of tourism, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for tourism and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0059",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Price ceiling with shortage: For the market of technology, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for technology and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0060",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Tax on producers: For the market of healthcare, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of healthcare, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0061",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Unit elastic demand curve: For the market of oil, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for oil, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0062",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Price floor with surplus: For the market of sugar, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for sugar and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0063",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Price floor with surplus: For the market of education, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for education and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0064",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Subsidy to producers: For the market of paper, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of paper, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0065",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Market for foreign currency: For the market of paper, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for paper currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0066",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Positive externality of consumption: For the market of housing, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for housing, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0067",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Unit elastic demand curve: For the market of steel, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for steel, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0068",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Market for foreign currency: For the market of sugar, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for sugar currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0069",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Unit elastic demand curve: For the market of copper, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for copper, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0070",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Price floor with surplus: For the market of bread, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for bread and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0071",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Tax on producers: For the market of education, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of education, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0072",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Price floor with surplus: For the market of gasoline, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for gasoline and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0073",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Positive externality of consumption: For the market of tourism, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for tourism, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0074",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Price ceiling with shortage: For the market of transportation, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for transportation and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0075",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Price floor with surplus: For the market of tourism, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for tourism and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0076",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Tax on producers: For the market of wheat, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of wheat, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0077",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Price ceiling with shortage: For the market of electricity, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for electricity and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0078",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Price floor with surplus: For the market of bread, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for bread and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0079",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Price floor with surplus: For the market of oil, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for oil and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0080",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Positive externality of consumption: For the market of healthcare, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for healthcare, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0081",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Price ceiling with shortage: For the market of bread, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for bread and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0082",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Demand and supply equilibrium: For the market of housing, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for housing using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0083",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Negative externality of production: For the market of rice, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for rice, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0084",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Positive externality of consumption: For the market of water, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for water, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0085",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Subsidy to producers: For the market of rice, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of rice, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0086",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Demand and supply equilibrium: For the market of sugar, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for sugar using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0087",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Tax on producers: For the market of healthcare, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of healthcare, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0088",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Price floor with surplus: For the market of housing, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for housing and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0089",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Subsidy to producers: For the market of steel, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of steel, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0090",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Demand and supply equilibrium: For the market of labour, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for labour using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0091",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Negative externality of production: For the market of paper, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for paper, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0092",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Tax on producers: For the market of oil, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of oil, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0093",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Demand and supply equilibrium: For the market of education, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for education using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0094",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Tax on producers: For the market of gasoline, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of gasoline, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0095",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Market for foreign currency: For the market of bread, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for bread currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0096",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Subsidy to producers: For the market of bread, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of bread, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0097",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Price floor with surplus: For the market of education, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for education and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0098",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Price ceiling with shortage: For the market of water, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for water and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0099",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Price floor with surplus: For the market of wheat, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for wheat and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0100",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Perfectly inelastic supply: For the market of healthcare, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for healthcare and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0101",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Demand and supply equilibrium: For the market of education, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for education using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0102",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Demand and supply equilibrium: For the market of electricity, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for electricity using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0103",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Positive externality of consumption: For the market of gasoline, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for gasoline, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0104",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Market for foreign currency: For the market of transportation, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for transportation currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0105",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Perfectly inelastic supply: For the market of healthcare, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for healthcare and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0106",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Price ceiling with shortage: For the market of labour, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for labour and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0107",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Unit elastic demand curve: For the market of technology, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for technology, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0108",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Negative externality of production: For the market of electricity, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for electricity, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0109",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Negative externality of production: For the market of coal, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for coal, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0110",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Market for foreign currency: For the market of milk, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for milk currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0111",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Market for foreign currency: For the market of milk, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for milk currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0112",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Demand and supply equilibrium: For the market of copper, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for copper using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0113",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Positive externality of consumption: For the market of labour, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for labour, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0114",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Tax on producers: For the market of sugar, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of sugar, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0115",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Negative externality of production: For the market of gasoline, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for gasoline, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0116",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Positive externality of consumption: For the market of paper, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for paper, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0117",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Positive externality of consumption: For the market of copper, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for copper, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0118",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Market for foreign currency: For the market of milk, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for milk currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0119",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Tax on producers: For the market of water, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of water, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0120",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Price floor with surplus: For the market of coal, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for coal and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0121",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Unit elastic demand curve: For the market of tourism, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for tourism, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0122",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Unit elastic demand curve: For the market of technology, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for technology, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0123",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Price floor with surplus: For the market of education, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for education and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0124",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Price floor with surplus: For the market of labour, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for labour and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0125",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Perfectly inelastic supply: For the market of milk, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for milk and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0126",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Tax on producers: For the market of sugar, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of sugar, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0127",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Demand and supply equilibrium: For the market of labour, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for labour using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0128",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Market for foreign currency: For the market of labour, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for labour currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0129",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Demand and supply equilibrium: For the market of tourism, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for tourism using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0130",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Unit elastic demand curve: For the market of coal, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for coal, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0131",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Positive externality of consumption: For the market of copper, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for copper, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0132",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Subsidy to producers: For the market of education, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of education, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0133",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Negative externality of production: For the market of education, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for education, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0134",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Negative externality of production: For the market of tourism, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for tourism, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0135",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Demand and supply equilibrium: For the market of bread, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for bread using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0136",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Subsidy to producers: For the market of paper, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of paper, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0137",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Subsidy to producers: For the market of housing, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of housing, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0138",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Price floor with surplus: For the market of oil, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for oil and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0139",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Subsidy to producers: For the market of housing, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of housing, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0140",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Price ceiling with shortage: For the market of education, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for education and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0141",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Subsidy to producers: For the market of coal, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of coal, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0142",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Subsidy to producers: For the market of oil, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of oil, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0143",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Price ceiling with shortage: For the market of water, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for water and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0144",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Perfectly inelastic supply: For the market of gasoline, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for gasoline and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0145",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Negative externality of production: For the market of tourism, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for tourism, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0146",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Market for foreign currency: For the market of labour, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for labour currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0147",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Perfectly inelastic supply: For the market of wheat, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for wheat and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0148",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Tax on producers: For the market of rice, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of rice, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0149",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Perfectly inelastic supply: For the market of oil, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for oil and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0150",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Market for foreign currency: For the market of labour, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for labour currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0151",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Price ceiling with shortage: For the market of bread, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for bread and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0152",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Tax on producers: For the market of water, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of water, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0153",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Price ceiling with shortage: For the market of education, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for education and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0154",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Positive externality of consumption: For the market of wheat, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for wheat, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0155",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Perfectly inelastic supply: For the market of healthcare, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for healthcare and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0156",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Price ceiling with shortage: For the market of paper, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for paper and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0157",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Unit elastic demand curve: For the market of rice, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for rice, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0158",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Price floor with surplus: For the market of transportation, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for transportation and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0159",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Negative externality of production: For the market of rice, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for rice, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0160",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Demand and supply equilibrium: For the market of tourism, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for tourism using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0161",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Subsidy to producers: For the market of milk, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of milk, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0162",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Positive externality of consumption: For the market of education, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for education, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0163",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Demand and supply equilibrium: For the market of housing, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for housing using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0164",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Market for foreign currency",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Market for foreign currency: For the market of technology, Depict the foreign exchange market for {good} currency, labelling supply and demand and showing equilibrium exchange rate.",
+      "expectedDiagram": "Market for foreign currency",
+      "keywords": [
+        "foreign currency",
+        "exchange rate",
+        "supply and demand"
+      ],
+      "solutionExplanation": "Depict the foreign exchange market for technology currency, labelling supply and demand and showing equilibrium exchange rate."
+    },
+    {
+      "id": "DGM_L1_0165",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Subsidy to producers: For the market of steel, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of steel, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0166",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Price ceiling with shortage: For the market of rice, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for rice and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0167",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Positive externality of consumption: For the market of technology, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for technology, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0168",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Unit elastic demand curve: For the market of bread, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for bread, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0169",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Demand and supply equilibrium: For the market of milk, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for milk using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0170",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Negative externality of production: For the market of labour, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for labour, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0171",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Tax on producers",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Tax on producers: For the market of tourism, Demonstrate the impact of a per\u2011unit tax on producers of {good}, indicating how supply shifts upward and showing tax incidence.",
+      "expectedDiagram": "Tax on producers",
+      "keywords": [
+        "tax",
+        "shift up",
+        "incidence"
+      ],
+      "solutionExplanation": "Demonstrate the impact of a per\u2011unit tax on producers of tourism, indicating how supply shifts upward and showing tax incidence."
+    },
+    {
+      "id": "DGM_L1_0172",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Price ceiling with shortage: For the market of copper, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for copper and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0173",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Price floor with surplus: For the market of technology, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for technology and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0174",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Price floor with surplus: For the market of labour, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for labour and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0175",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Positive externality of consumption: For the market of copper, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for copper, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0176",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Positive externality of consumption: For the market of wheat, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for wheat, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0177",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Price ceiling with shortage: For the market of paper, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for paper and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0178",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Subsidy to producers: For the market of paper, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of paper, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0179",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Positive externality of consumption: For the market of gasoline, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for gasoline, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0180",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Positive externality of consumption: For the market of transportation, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for transportation, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0181",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Unit elastic demand curve: For the market of tourism, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for tourism, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0182",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Perfectly inelastic supply: For the market of electricity, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for electricity and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0183",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Demand and supply equilibrium",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Demand and supply equilibrium: For the market of technology, Illustrate the market equilibrium for {good} using intersecting demand and supply curves.",
+      "expectedDiagram": "Demand and supply equilibrium",
+      "keywords": [
+        "equilibrium",
+        "demand",
+        "supply"
+      ],
+      "solutionExplanation": "Illustrate the market equilibrium for technology using intersecting demand and supply curves."
+    },
+    {
+      "id": "DGM_L1_0184",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Negative externality of production: For the market of rice, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for rice, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0185",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Unit elastic demand curve: For the market of copper, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for copper, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0186",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Positive externality of consumption: For the market of wheat, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for wheat, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0187",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Perfectly inelastic supply",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Perfectly inelastic supply: For the market of gasoline, Show a perfectly inelastic supply curve for {good} and explain the vertical supply curve.",
+      "expectedDiagram": "Perfectly inelastic supply",
+      "keywords": [
+        "perfectly inelastic",
+        "vertical",
+        "supply"
+      ],
+      "solutionExplanation": "Show a perfectly inelastic supply curve for gasoline and explain the vertical supply curve."
+    },
+    {
+      "id": "DGM_L1_0188",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Subsidy to producers: For the market of milk, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of milk, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0189",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Price floor with surplus: For the market of technology, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for technology and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0190",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Subsidy to producers: For the market of coal, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of coal, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0191",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Subsidy to producers: For the market of healthcare, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of healthcare, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0192",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Unit elastic demand curve: For the market of gasoline, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for gasoline, describing its slope."
+    },
+    {
+      "id": "DGM_L1_0193",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Price ceiling with shortage: For the market of steel, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for steel and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0194",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price floor with surplus",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Price floor with surplus: For the market of coal, Show a price floor in the market for {good} and identify the surplus.",
+      "expectedDiagram": "Price floor with surplus",
+      "keywords": [
+        "price floor",
+        "surplus",
+        "minimum price"
+      ],
+      "solutionExplanation": "Show a price floor in the market for coal and identify the surplus."
+    },
+    {
+      "id": "DGM_L1_0195",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Negative externality of production: For the market of steel, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for steel, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0196",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Positive externality of consumption",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Positive externality of consumption: For the market of wheat, Depict a market with a positive externality of consumption for {good}, labelling MSB and MPB.",
+      "expectedDiagram": "Positive externality of consumption",
+      "keywords": [
+        "positive externality",
+        "MSB",
+        "MPB"
+      ],
+      "solutionExplanation": "Depict a market with a positive externality of consumption for wheat, labelling msb and mpb."
+    },
+    {
+      "id": "DGM_L1_0197",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Price ceiling with shortage",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Price ceiling with shortage: For the market of steel, Draw a price ceiling on the market for {good} and show the resulting shortage.",
+      "expectedDiagram": "Price ceiling with shortage",
+      "keywords": [
+        "price ceiling",
+        "shortage",
+        "maximum price"
+      ],
+      "solutionExplanation": "Draw a price ceiling on the market for steel and show the resulting shortage."
+    },
+    {
+      "id": "DGM_L1_0198",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Subsidy to producers",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Subsidy to producers: For the market of education, Show the effect of a subsidy to producers of {good}, with the supply curve shifting downward and explaining the subsidy incidence.",
+      "expectedDiagram": "Subsidy to producers",
+      "keywords": [
+        "subsidy",
+        "shift down",
+        "incidence"
+      ],
+      "solutionExplanation": "Show the effect of a subsidy to producers of education, with the supply curve shifting downward and explaining the subsidy incidence."
+    },
+    {
+      "id": "DGM_L1_0199",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Negative externality of production",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Negative externality of production: For the market of technology, Illustrate a negative externality of production in the market for {good}, labelling MSC and MPC.",
+      "expectedDiagram": "Negative externality of production",
+      "keywords": [
+        "negative externality",
+        "MSC",
+        "MPC"
+      ],
+      "solutionExplanation": "Illustrate a negative externality of production in the market for technology, labelling msc and mpc."
+    },
+    {
+      "id": "DGM_L1_0200",
+      "mode": "diagram",
+      "level": 1,
+      "topic": "Unit elastic demand curve",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Unit elastic demand curve: For the market of wheat, Draw a unit elastic demand curve for {good}, describing its slope.",
+      "expectedDiagram": "Unit elastic demand curve",
+      "keywords": [
+        "unit elastic",
+        "slope",
+        "demand"
+      ],
+      "solutionExplanation": "Draw a unit elastic demand curve for wheat, describing its slope."
+    },
+    {
+      "id": "DGM_L2_0001",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of electricity, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for electricity as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0002",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of labour, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0003",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Poverty trap diagram: For the market of rice, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the rice sector."
+    },
+    {
+      "id": "DGM_L2_0004",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of wheat, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for wheat to the left."
+    },
+    {
+      "id": "DGM_L2_0005",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of paper, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the paper sector."
+    },
+    {
+      "id": "DGM_L2_0006",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Poverty trap diagram: For the market of coal, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the coal sector."
+    },
+    {
+      "id": "DGM_L2_0007",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Monopoly equilibrium: For the market of oil, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the oil industry."
+    },
+    {
+      "id": "DGM_L2_0008",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of water, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the water sector."
+    },
+    {
+      "id": "DGM_L2_0009",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of bread, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the bread sector."
+    },
+    {
+      "id": "DGM_L2_0010",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of transportation, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for transportation, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0011",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of milk, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for milk, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0012",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Comparative advantage PPF: For the market of education, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0013",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Comparative advantage PPF: For the market of milk, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0014",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Comparative advantage PPF: For the market of paper, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0015",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of electricity, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0016",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of coal, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for coal to the left."
+    },
+    {
+      "id": "DGM_L2_0017",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Comparative advantage PPF: For the market of water, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0018",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of labour, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the labour sector."
+    },
+    {
+      "id": "DGM_L2_0019",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of paper, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0020",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of steel, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0021",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Labour market and minimum wage: For the market of education, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0022",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Labour market and minimum wage: For the market of wheat, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0023",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Labour market and minimum wage: For the market of education, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0024",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Labour market and minimum wage: For the market of gasoline, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0025",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of healthcare, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0026",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Monopoly equilibrium: For the market of water, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the water industry."
+    },
+    {
+      "id": "DGM_L2_0027",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of water, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the water sector."
+    },
+    {
+      "id": "DGM_L2_0028",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Monopoly equilibrium: For the market of labour, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the labour industry."
+    },
+    {
+      "id": "DGM_L2_0029",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of paper, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for paper as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0030",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of wheat, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for wheat as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0031",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Labour market and minimum wage: For the market of technology, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0032",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Comparative advantage PPF: For the market of coal, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0033",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Labour market and minimum wage: For the market of sugar, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0034",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Comparative advantage PPF: For the market of labour, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0035",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Monopoly equilibrium: For the market of healthcare, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the healthcare industry."
+    },
+    {
+      "id": "DGM_L2_0036",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of housing, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for housing as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0037",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of transportation, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the transportation sector."
+    },
+    {
+      "id": "DGM_L2_0038",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of copper, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0039",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Monopoly equilibrium: For the market of education, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the education industry."
+    },
+    {
+      "id": "DGM_L2_0040",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of labour, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for labour as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0041",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of labour, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the labour sector."
+    },
+    {
+      "id": "DGM_L2_0042",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of milk, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for milk as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0043",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Poverty trap diagram: For the market of coal, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the coal sector."
+    },
+    {
+      "id": "DGM_L2_0044",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Poverty trap diagram: For the market of paper, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the paper sector."
+    },
+    {
+      "id": "DGM_L2_0045",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of paper, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for paper as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0046",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of oil, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the oil sector."
+    },
+    {
+      "id": "DGM_L2_0047",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of housing, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for housing, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0048",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of bread, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for bread to the right."
+    },
+    {
+      "id": "DGM_L2_0049",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Comparative advantage PPF: For the market of transportation, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0050",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of technology, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for technology as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0051",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Poverty trap diagram: For the market of technology, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the technology sector."
+    },
+    {
+      "id": "DGM_L2_0052",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Poverty trap diagram: For the market of electricity, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the electricity sector."
+    },
+    {
+      "id": "DGM_L2_0053",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Labour market and minimum wage: For the market of healthcare, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0054",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of tourism, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the tourism sector."
+    },
+    {
+      "id": "DGM_L2_0055",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of sugar, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for sugar, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0056",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Labour market and minimum wage: For the market of sugar, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0057",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of sugar, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for sugar, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0058",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of copper, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0059",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Monopoly equilibrium: For the market of coal, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the coal industry."
+    },
+    {
+      "id": "DGM_L2_0060",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Labour market and minimum wage: For the market of labour, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0061",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of milk, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for milk, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0062",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Labour market and minimum wage: For the market of copper, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0063",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Monopoly equilibrium: For the market of labour, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the labour industry."
+    },
+    {
+      "id": "DGM_L2_0064",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of rice, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for rice to the left."
+    },
+    {
+      "id": "DGM_L2_0065",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of oil, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for oil to the left."
+    },
+    {
+      "id": "DGM_L2_0066",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of transportation, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the transportation sector."
+    },
+    {
+      "id": "DGM_L2_0067",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Comparative advantage PPF: For the market of copper, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0068",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Monopoly equilibrium: For the market of wheat, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the wheat industry."
+    },
+    {
+      "id": "DGM_L2_0069",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Monopoly equilibrium: For the market of labour, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the labour industry."
+    },
+    {
+      "id": "DGM_L2_0070",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of wheat, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for wheat to the left."
+    },
+    {
+      "id": "DGM_L2_0071",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Labour market and minimum wage: For the market of transportation, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0072",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of milk, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0073",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Comparative advantage PPF: For the market of steel, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0074",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of electricity, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for electricity to the left."
+    },
+    {
+      "id": "DGM_L2_0075",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of wheat, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for wheat to the left."
+    },
+    {
+      "id": "DGM_L2_0076",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of coal, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for coal to the right."
+    },
+    {
+      "id": "DGM_L2_0077",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of sugar, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0078",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of steel, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for steel to the right."
+    },
+    {
+      "id": "DGM_L2_0079",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of paper, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0080",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of labour, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0081",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Monopoly equilibrium: For the market of water, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the water industry."
+    },
+    {
+      "id": "DGM_L2_0082",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of electricity, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for electricity to the left."
+    },
+    {
+      "id": "DGM_L2_0083",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of paper, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0084",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of steel, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for steel, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0085",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Poverty trap diagram: For the market of labour, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the labour sector."
+    },
+    {
+      "id": "DGM_L2_0086",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Monopoly equilibrium: For the market of gasoline, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the gasoline industry."
+    },
+    {
+      "id": "DGM_L2_0087",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Poverty trap diagram: For the market of transportation, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the transportation sector."
+    },
+    {
+      "id": "DGM_L2_0088",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of labour, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the labour sector."
+    },
+    {
+      "id": "DGM_L2_0089",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Poverty trap diagram: For the market of steel, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the steel sector."
+    },
+    {
+      "id": "DGM_L2_0090",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of housing, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for housing to the right."
+    },
+    {
+      "id": "DGM_L2_0091",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of tourism, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0092",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of copper, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for copper, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0093",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Labour market and minimum wage: For the market of technology, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0094",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Comparative advantage PPF: For the market of transportation, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0095",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of sugar, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for sugar to the left."
+    },
+    {
+      "id": "DGM_L2_0096",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of bread, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for bread to the right."
+    },
+    {
+      "id": "DGM_L2_0097",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of education, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for education to the left."
+    },
+    {
+      "id": "DGM_L2_0098",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of gasoline, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for gasoline to the left."
+    },
+    {
+      "id": "DGM_L2_0099",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of technology, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the technology sector."
+    },
+    {
+      "id": "DGM_L2_0100",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of tourism, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for tourism as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0101",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of copper, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for copper, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0102",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Comparative advantage PPF: For the market of bread, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0103",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of tourism, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for tourism to the left."
+    },
+    {
+      "id": "DGM_L2_0104",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of rice, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0105",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Comparative advantage PPF: For the market of electricity, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0106",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Monopoly equilibrium: For the market of rice, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the rice industry."
+    },
+    {
+      "id": "DGM_L2_0107",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of water, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0108",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of labour, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for labour to the right."
+    },
+    {
+      "id": "DGM_L2_0109",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of sugar, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the sugar sector."
+    },
+    {
+      "id": "DGM_L2_0110",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of education, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for education, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0111",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of coal, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0112",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Comparative advantage PPF: For the market of healthcare, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0113",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Labour market and minimum wage: For the market of milk, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0114",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Monopoly equilibrium: For the market of sugar, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the sugar industry."
+    },
+    {
+      "id": "DGM_L2_0115",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of transportation, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for transportation to the right."
+    },
+    {
+      "id": "DGM_L2_0116",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of housing, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for housing, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0117",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of wheat, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for wheat as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0118",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of tourism, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for tourism, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0119",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of labour, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for labour, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0120",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Poverty trap diagram: For the market of rice, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the rice sector."
+    },
+    {
+      "id": "DGM_L2_0121",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of wheat, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the wheat sector."
+    },
+    {
+      "id": "DGM_L2_0122",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Monopoly equilibrium: For the market of water, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the water industry."
+    },
+    {
+      "id": "DGM_L2_0123",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of transportation, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for transportation to the right."
+    },
+    {
+      "id": "DGM_L2_0124",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Labour market and minimum wage: For the market of transportation, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0125",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Poverty trap diagram: For the market of sugar, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the sugar sector."
+    },
+    {
+      "id": "DGM_L2_0126",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of water, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for water as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0127",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Comparative advantage PPF: For the market of bread, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0128",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of wheat, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for wheat to the left."
+    },
+    {
+      "id": "DGM_L2_0129",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Monopoly equilibrium: For the market of housing, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the housing industry."
+    },
+    {
+      "id": "DGM_L2_0130",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of bread, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0131",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Poverty trap diagram: For the market of wheat, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the wheat sector."
+    },
+    {
+      "id": "DGM_L2_0132",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of paper, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0133",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of technology, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0134",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of rice, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the rice sector."
+    },
+    {
+      "id": "DGM_L2_0135",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of coal, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the coal sector."
+    },
+    {
+      "id": "DGM_L2_0136",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Labour market and minimum wage: For the market of gasoline, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0137",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of wheat, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for wheat, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0138",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Comparative advantage PPF: For the market of housing, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0139",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Poverty trap diagram: For the market of transportation, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the transportation sector."
+    },
+    {
+      "id": "DGM_L2_0140",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Labour market and minimum wage: For the market of rice, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0141",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of tourism, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0142",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of technology, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for technology to the left."
+    },
+    {
+      "id": "DGM_L2_0143",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of education, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for education as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0144",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Comparative advantage PPF: For the market of wheat, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0145",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Poverty trap diagram: For the market of education, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the education sector."
+    },
+    {
+      "id": "DGM_L2_0146",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of labour, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for labour as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0147",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Poverty trap diagram: For the market of paper, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the paper sector."
+    },
+    {
+      "id": "DGM_L2_0148",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Comparative advantage PPF: For the market of steel, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0149",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of coal, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0150",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Poverty trap diagram: For the market of gasoline, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the gasoline sector."
+    },
+    {
+      "id": "DGM_L2_0151",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of rice, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for rice to the left."
+    },
+    {
+      "id": "DGM_L2_0152",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of sugar, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for sugar to the left."
+    },
+    {
+      "id": "DGM_L2_0153",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of copper, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for copper, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0154",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of education, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for education, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0155",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Labour market and minimum wage: For the market of housing, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0156",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of tourism, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for tourism to the left."
+    },
+    {
+      "id": "DGM_L2_0157",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of transportation, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for transportation to the right."
+    },
+    {
+      "id": "DGM_L2_0158",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Monopoly equilibrium: For the market of copper, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the copper industry."
+    },
+    {
+      "id": "DGM_L2_0159",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Labour market and minimum wage: For the market of education, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0160",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of education, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the education sector."
+    },
+    {
+      "id": "DGM_L2_0161",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of oil, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for oil as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0162",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of housing, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the housing sector."
+    },
+    {
+      "id": "DGM_L2_0163",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of gasoline, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for gasoline, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0164",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Poverty trap diagram: For the market of oil, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the oil sector."
+    },
+    {
+      "id": "DGM_L2_0165",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of milk, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for milk as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0166",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of labour, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the labour sector."
+    },
+    {
+      "id": "DGM_L2_0167",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of rice, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for rice as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0168",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of labour, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for labour as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0169",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of water, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for water, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0170",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of gasoline, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0171",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of wheat, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the wheat sector."
+    },
+    {
+      "id": "DGM_L2_0172",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Monopoly equilibrium: For the market of copper, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the copper industry."
+    },
+    {
+      "id": "DGM_L2_0173",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Monopoly equilibrium: For the market of tourism, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the tourism industry."
+    },
+    {
+      "id": "DGM_L2_0174",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of electricity, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for electricity to the left."
+    },
+    {
+      "id": "DGM_L2_0175",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of healthcare, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the healthcare sector."
+    },
+    {
+      "id": "DGM_L2_0176",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of coal, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for coal to the right."
+    },
+    {
+      "id": "DGM_L2_0177",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Comparative advantage PPF: For the market of labour, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0178",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Comparative advantage PPF",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Comparative advantage PPF: For the market of rice, Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs.",
+      "expectedDiagram": "Comparative advantage PPF",
+      "keywords": [
+        "PPF",
+        "comparative advantage",
+        "opportunity cost"
+      ],
+      "solutionExplanation": "Plot production possibilities for two goods and illustrate comparative advantage by showing different opportunity costs."
+    },
+    {
+      "id": "DGM_L2_0179",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of tourism, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for tourism as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0180",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of coal, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the coal sector."
+    },
+    {
+      "id": "DGM_L2_0181",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of wheat, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for wheat to the right."
+    },
+    {
+      "id": "DGM_L2_0182",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of education, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for education to the right."
+    },
+    {
+      "id": "DGM_L2_0183",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Monopoly equilibrium: For the market of rice, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the rice industry."
+    },
+    {
+      "id": "DGM_L2_0184",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of water, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0185",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of rice, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0186",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Poverty trap diagram",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Poverty trap diagram: For the market of housing, Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the {good} sector.",
+      "expectedDiagram": "Poverty trap diagram",
+      "keywords": [
+        "poverty trap",
+        "low income",
+        "self reinforcing"
+      ],
+      "solutionExplanation": "Draw a poverty trap diagram showing how low income leads to low investment and perpetuates poverty for the housing sector."
+    },
+    {
+      "id": "DGM_L2_0187",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of healthcare, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for healthcare to the right."
+    },
+    {
+      "id": "DGM_L2_0188",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of tourism, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for tourism as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0189",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of oil, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for oil to the right."
+    },
+    {
+      "id": "DGM_L2_0190",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Labour market and minimum wage",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Labour market and minimum wage: For the market of coal, Show the effect of a minimum wage in the labour market, labelling the surplus of labour.",
+      "expectedDiagram": "Labour market and minimum wage",
+      "keywords": [
+        "minimum wage",
+        "labour market",
+        "surplus"
+      ],
+      "solutionExplanation": "Show the effect of a minimum wage in the labour market, labelling the surplus of labour."
+    },
+    {
+      "id": "DGM_L2_0191",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS long\u2011run equilibrium",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "AD\u2011AS long\u2011run equilibrium: For the market of wheat, Illustrate the long\u2011run equilibrium in the AD\u2011AS model for {good} as part of the economy.",
+      "expectedDiagram": "AD\u2011AS long\u2011run equilibrium",
+      "keywords": [
+        "aggregate demand",
+        "aggregate supply",
+        "LRAS"
+      ],
+      "solutionExplanation": "Illustrate the long\u2011run equilibrium in the ad\u2011as model for wheat as part of the economy."
+    },
+    {
+      "id": "DGM_L2_0192",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS demand\u2011pull inflation",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "AD\u2011AS demand\u2011pull inflation: For the market of education, Show demand\u2011pull inflation in the AD\u2011AS model by shifting the AD curve for {good} to the right.",
+      "expectedDiagram": "AD\u2011AS demand\u2011pull inflation",
+      "keywords": [
+        "demand pull",
+        "inflation",
+        "AD shift"
+      ],
+      "solutionExplanation": "Show demand\u2011pull inflation in the ad\u2011as model by shifting the ad curve for education to the right."
+    },
+    {
+      "id": "DGM_L2_0193",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of oil, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0194",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Lorenz curve and Gini coefficient",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Lorenz curve and Gini coefficient: For the market of rice, Sketch the Lorenz curve for income distribution and indicate the area used to compute the Gini coefficient.",
+      "expectedDiagram": "Lorenz curve and Gini coefficient",
+      "keywords": [
+        "Lorenz curve",
+        "Gini",
+        "income inequality"
+      ],
+      "solutionExplanation": "Sketch the lorenz curve for income distribution and indicate the area used to compute the gini coefficient."
+    },
+    {
+      "id": "DGM_L2_0195",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of copper, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for copper to the left."
+    },
+    {
+      "id": "DGM_L2_0196",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Monopoly equilibrium",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Monopoly equilibrium: For the market of water, Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the {good} industry.",
+      "expectedDiagram": "Monopoly equilibrium",
+      "keywords": [
+        "monopoly",
+        "MR",
+        "MC",
+        "demand"
+      ],
+      "solutionExplanation": "Depict a monopoly equilibrium showing demand, marginal revenue and marginal cost curves for the water industry."
+    },
+    {
+      "id": "DGM_L2_0197",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of labour, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for labour, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L2_0198",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS recessionary gap",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "AD\u2011AS recessionary gap: For the market of education, Illustrate a recessionary gap in the AD\u2011AS framework, showing equilibrium output below potential for the {good} sector.",
+      "expectedDiagram": "AD\u2011AS recessionary gap",
+      "keywords": [
+        "recessionary gap",
+        "equilibrium",
+        "potential output"
+      ],
+      "solutionExplanation": "Illustrate a recessionary gap in the ad\u2011as framework, showing equilibrium output below potential for the education sector."
+    },
+    {
+      "id": "DGM_L2_0199",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "AD\u2011AS cost\u2011push inflation",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "AD\u2011AS cost\u2011push inflation: For the market of steel, Depict cost\u2011push inflation by shifting the SRAS (short run aggregate supply) curve for {good} to the left.",
+      "expectedDiagram": "AD\u2011AS cost\u2011push inflation",
+      "keywords": [
+        "cost push",
+        "inflation",
+        "AS shift"
+      ],
+      "solutionExplanation": "Depict cost\u2011push inflation by shifting the sras (short run aggregate supply) curve for steel to the left."
+    },
+    {
+      "id": "DGM_L2_0200",
+      "mode": "diagram",
+      "level": 2,
+      "topic": "Kinked demand curve for oligopoly",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Kinked demand curve for oligopoly: For the market of oil, Illustrate the kinked demand curve model for an oligopolistic market for {good}, showing the discontinuity in marginal revenue.",
+      "expectedDiagram": "Kinked demand curve for oligopoly",
+      "keywords": [
+        "kinked demand",
+        "oligopoly",
+        "MR discontinuity"
+      ],
+      "solutionExplanation": "Illustrate the kinked demand curve model for an oligopolistic market for oil, showing the discontinuity in marginal revenue."
+    },
+    {
+      "id": "DGM_L3_0001",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Phillips curve (SR and LR): For the market of steel, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0002",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Production possibilities with economic growth: For the market of copper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing copper."
+    },
+    {
+      "id": "DGM_L3_0003",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Fiscal policy multiplier effect: For the market of gasoline, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for gasoline."
+    },
+    {
+      "id": "DGM_L3_0004",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Fiscal policy multiplier effect: For the market of wheat, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for wheat."
+    },
+    {
+      "id": "DGM_L3_0005",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Production possibilities with economic growth: For the market of water, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing water."
+    },
+    {
+      "id": "DGM_L3_0006",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Fiscal policy multiplier effect: For the market of labour, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for labour."
+    },
+    {
+      "id": "DGM_L3_0007",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Indifference curve and budget line: For the market of rice, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for rice and another product."
+    },
+    {
+      "id": "DGM_L3_0008",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Terms of trade improvement: For the market of copper, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading copper, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0009",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Production possibilities with economic growth: For the market of copper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing copper."
+    },
+    {
+      "id": "DGM_L3_0010",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Indifference curve and budget line: For the market of gasoline, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for gasoline and another product."
+    },
+    {
+      "id": "DGM_L3_0011",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Indifference curve and budget line: For the market of coal, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for coal and another product."
+    },
+    {
+      "id": "DGM_L3_0012",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Fiscal policy multiplier effect: For the market of transportation, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for transportation."
+    },
+    {
+      "id": "DGM_L3_0013",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Terms of trade improvement: For the market of transportation, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading transportation, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0014",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Production possibilities with economic growth: For the market of tourism, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing tourism."
+    },
+    {
+      "id": "DGM_L3_0015",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Phillips curve (SR and LR): For the market of technology, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0016",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Indifference curve and budget line: For the market of paper, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for paper and another product."
+    },
+    {
+      "id": "DGM_L3_0017",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Terms of trade improvement: For the market of sugar, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading sugar, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0018",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Phillips curve (SR and LR): For the market of bread, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0019",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Fiscal policy multiplier effect: For the market of labour, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for labour."
+    },
+    {
+      "id": "DGM_L3_0020",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Production possibilities with economic growth: For the market of housing, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing housing."
+    },
+    {
+      "id": "DGM_L3_0021",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Terms of trade improvement: For the market of coal, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading coal, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0022",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Production possibilities with economic growth: For the market of electricity, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing electricity."
+    },
+    {
+      "id": "DGM_L3_0023",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Fiscal policy multiplier effect: For the market of gasoline, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for gasoline."
+    },
+    {
+      "id": "DGM_L3_0024",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Production possibilities with economic growth: For the market of healthcare, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing healthcare."
+    },
+    {
+      "id": "DGM_L3_0025",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Fiscal policy multiplier effect: For the market of healthcare, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for healthcare."
+    },
+    {
+      "id": "DGM_L3_0026",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Production possibilities with economic growth: For the market of paper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing paper."
+    },
+    {
+      "id": "DGM_L3_0027",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Terms of trade improvement: For the market of paper, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading paper, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0028",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Terms of trade improvement: For the market of education, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading education, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0029",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Indifference curve and budget line: For the market of labour, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for labour and another product."
+    },
+    {
+      "id": "DGM_L3_0030",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Fiscal policy multiplier effect: For the market of milk, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for milk."
+    },
+    {
+      "id": "DGM_L3_0031",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Phillips curve (SR and LR): For the market of wheat, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0032",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Terms of trade improvement: For the market of coal, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading coal, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0033",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Fiscal policy multiplier effect: For the market of tourism, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for tourism."
+    },
+    {
+      "id": "DGM_L3_0034",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Fiscal policy multiplier effect: For the market of water, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for water."
+    },
+    {
+      "id": "DGM_L3_0035",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Terms of trade improvement: For the market of rice, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading rice, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0036",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Terms of trade improvement: For the market of water, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading water, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0037",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Fiscal policy multiplier effect: For the market of technology, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for technology."
+    },
+    {
+      "id": "DGM_L3_0038",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Fiscal policy multiplier effect: For the market of electricity, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for electricity."
+    },
+    {
+      "id": "DGM_L3_0039",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Terms of trade improvement: For the market of water, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading water, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0040",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Indifference curve and budget line: For the market of education, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for education and another product."
+    },
+    {
+      "id": "DGM_L3_0041",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Phillips curve (SR and LR): For the market of steel, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0042",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Production possibilities with economic growth: For the market of housing, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing housing."
+    },
+    {
+      "id": "DGM_L3_0043",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Fiscal policy multiplier effect: For the market of transportation, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for transportation."
+    },
+    {
+      "id": "DGM_L3_0044",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Production possibilities with economic growth: For the market of labour, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing labour."
+    },
+    {
+      "id": "DGM_L3_0045",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Fiscal policy multiplier effect: For the market of water, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for water."
+    },
+    {
+      "id": "DGM_L3_0046",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Production possibilities with economic growth: For the market of milk, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing milk."
+    },
+    {
+      "id": "DGM_L3_0047",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Terms of trade improvement: For the market of steel, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading steel, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0048",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Phillips curve (SR and LR): For the market of housing, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0049",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Fiscal policy multiplier effect: For the market of copper, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for copper."
+    },
+    {
+      "id": "DGM_L3_0050",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Terms of trade improvement: For the market of oil, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading oil, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0051",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Production possibilities with economic growth: For the market of technology, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing technology."
+    },
+    {
+      "id": "DGM_L3_0052",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Fiscal policy multiplier effect: For the market of milk, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for milk."
+    },
+    {
+      "id": "DGM_L3_0053",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Indifference curve and budget line: For the market of tourism, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for tourism and another product."
+    },
+    {
+      "id": "DGM_L3_0054",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Fiscal policy multiplier effect: For the market of gasoline, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for gasoline."
+    },
+    {
+      "id": "DGM_L3_0055",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Terms of trade improvement: For the market of housing, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading housing, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0056",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Production possibilities with economic growth: For the market of electricity, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing electricity."
+    },
+    {
+      "id": "DGM_L3_0057",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Phillips curve (SR and LR): For the market of education, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0058",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Fiscal policy multiplier effect: For the market of paper, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for paper."
+    },
+    {
+      "id": "DGM_L3_0059",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Production possibilities with economic growth: For the market of bread, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing bread."
+    },
+    {
+      "id": "DGM_L3_0060",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Fiscal policy multiplier effect: For the market of gasoline, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for gasoline."
+    },
+    {
+      "id": "DGM_L3_0061",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Phillips curve (SR and LR): For the market of education, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0062",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Fiscal policy multiplier effect: For the market of housing, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for housing."
+    },
+    {
+      "id": "DGM_L3_0063",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Fiscal policy multiplier effect: For the market of tourism, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for tourism."
+    },
+    {
+      "id": "DGM_L3_0064",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Production possibilities with economic growth: For the market of technology, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing technology."
+    },
+    {
+      "id": "DGM_L3_0065",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Indifference curve and budget line: For the market of housing, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for housing and another product."
+    },
+    {
+      "id": "DGM_L3_0066",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Indifference curve and budget line: For the market of water, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for water and another product."
+    },
+    {
+      "id": "DGM_L3_0067",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Phillips curve (SR and LR): For the market of technology, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0068",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Terms of trade improvement: For the market of wheat, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading wheat, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0069",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Fiscal policy multiplier effect: For the market of water, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for water."
+    },
+    {
+      "id": "DGM_L3_0070",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Phillips curve (SR and LR): For the market of sugar, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0071",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Production possibilities with economic growth: For the market of transportation, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing transportation."
+    },
+    {
+      "id": "DGM_L3_0072",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Fiscal policy multiplier effect: For the market of oil, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for oil."
+    },
+    {
+      "id": "DGM_L3_0073",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Production possibilities with economic growth: For the market of copper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing copper."
+    },
+    {
+      "id": "DGM_L3_0074",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Terms of trade improvement: For the market of oil, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading oil, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0075",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Phillips curve (SR and LR): For the market of healthcare, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0076",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Fiscal policy multiplier effect: For the market of sugar, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for sugar."
+    },
+    {
+      "id": "DGM_L3_0077",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Phillips curve (SR and LR): For the market of milk, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0078",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Indifference curve and budget line: For the market of oil, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for oil and another product."
+    },
+    {
+      "id": "DGM_L3_0079",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Production possibilities with economic growth: For the market of paper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing paper."
+    },
+    {
+      "id": "DGM_L3_0080",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Production possibilities with economic growth: For the market of transportation, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing transportation."
+    },
+    {
+      "id": "DGM_L3_0081",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Terms of trade improvement: For the market of transportation, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading transportation, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0082",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Fiscal policy multiplier effect: For the market of labour, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for labour."
+    },
+    {
+      "id": "DGM_L3_0083",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Phillips curve (SR and LR): For the market of rice, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0084",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Phillips curve (SR and LR): For the market of paper, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0085",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Fiscal policy multiplier effect: For the market of gasoline, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for gasoline."
+    },
+    {
+      "id": "DGM_L3_0086",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Indifference curve and budget line: For the market of rice, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for rice and another product."
+    },
+    {
+      "id": "DGM_L3_0087",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Indifference curve and budget line: For the market of labour, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for labour and another product."
+    },
+    {
+      "id": "DGM_L3_0088",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Production possibilities with economic growth: For the market of electricity, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing electricity."
+    },
+    {
+      "id": "DGM_L3_0089",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Indifference curve and budget line: For the market of copper, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for copper and another product."
+    },
+    {
+      "id": "DGM_L3_0090",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Phillips curve (SR and LR): For the market of transportation, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0091",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Indifference curve and budget line: For the market of oil, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for oil and another product."
+    },
+    {
+      "id": "DGM_L3_0092",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Terms of trade improvement: For the market of transportation, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading transportation, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0093",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Phillips curve (SR and LR): For the market of education, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0094",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Terms of trade improvement: For the market of steel, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading steel, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0095",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Terms of trade improvement: For the market of labour, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading labour, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0096",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Production possibilities with economic growth: For the market of copper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing copper."
+    },
+    {
+      "id": "DGM_L3_0097",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Phillips curve (SR and LR): For the market of housing, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0098",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Production possibilities with economic growth: For the market of oil, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing oil."
+    },
+    {
+      "id": "DGM_L3_0099",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Terms of trade improvement: For the market of steel, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading steel, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0100",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Terms of trade improvement: For the market of oil, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading oil, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0101",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Phillips curve (SR and LR): For the market of rice, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0102",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Phillips curve (SR and LR): For the market of coal, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0103",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Phillips curve (SR and LR): For the market of gasoline, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0104",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Production possibilities with economic growth: For the market of electricity, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing electricity."
+    },
+    {
+      "id": "DGM_L3_0105",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Fiscal policy multiplier effect: For the market of education, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for education."
+    },
+    {
+      "id": "DGM_L3_0106",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Fiscal policy multiplier effect: For the market of healthcare, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for healthcare."
+    },
+    {
+      "id": "DGM_L3_0107",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Indifference curve and budget line: For the market of housing, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for housing and another product."
+    },
+    {
+      "id": "DGM_L3_0108",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Indifference curve and budget line: For the market of paper, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for paper and another product."
+    },
+    {
+      "id": "DGM_L3_0109",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Phillips curve (SR and LR): For the market of technology, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0110",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Phillips curve (SR and LR): For the market of transportation, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0111",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Production possibilities with economic growth: For the market of bread, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing bread."
+    },
+    {
+      "id": "DGM_L3_0112",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Production possibilities with economic growth: For the market of oil, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing oil."
+    },
+    {
+      "id": "DGM_L3_0113",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Fiscal policy multiplier effect: For the market of rice, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for rice."
+    },
+    {
+      "id": "DGM_L3_0114",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Phillips curve (SR and LR): For the market of sugar, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0115",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Indifference curve and budget line: For the market of oil, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for oil and another product."
+    },
+    {
+      "id": "DGM_L3_0116",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Terms of trade improvement: For the market of sugar, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading sugar, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0117",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Terms of trade improvement: For the market of oil, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading oil, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0118",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Indifference curve and budget line: For the market of milk, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for milk and another product."
+    },
+    {
+      "id": "DGM_L3_0119",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Terms of trade improvement: For the market of wheat, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading wheat, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0120",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Production possibilities with economic growth: For the market of paper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing paper."
+    },
+    {
+      "id": "DGM_L3_0121",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Production possibilities with economic growth: For the market of wheat, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing wheat."
+    },
+    {
+      "id": "DGM_L3_0122",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Indifference curve and budget line: For the market of paper, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for paper and another product."
+    },
+    {
+      "id": "DGM_L3_0123",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Fiscal policy multiplier effect: For the market of tourism, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for tourism."
+    },
+    {
+      "id": "DGM_L3_0124",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Phillips curve (SR and LR): For the market of water, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0125",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Phillips curve (SR and LR): For the market of rice, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0126",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Fiscal policy multiplier effect: For the market of bread, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for bread."
+    },
+    {
+      "id": "DGM_L3_0127",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Phillips curve (SR and LR): For the market of bread, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0128",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Phillips curve (SR and LR): For the market of steel, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0129",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Production possibilities with economic growth: For the market of rice, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing rice."
+    },
+    {
+      "id": "DGM_L3_0130",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Fiscal policy multiplier effect: For the market of paper, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for paper."
+    },
+    {
+      "id": "DGM_L3_0131",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Indifference curve and budget line: For the market of housing, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for housing and another product."
+    },
+    {
+      "id": "DGM_L3_0132",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for water.",
+      "prompt": "Terms of trade improvement: For the market of water, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading water, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0133",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Fiscal policy multiplier effect: For the market of steel, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for steel."
+    },
+    {
+      "id": "DGM_L3_0134",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Fiscal policy multiplier effect: For the market of copper, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for copper."
+    },
+    {
+      "id": "DGM_L3_0135",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Terms of trade improvement: For the market of oil, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading oil, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0136",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Terms of trade improvement: For the market of healthcare, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading healthcare, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0137",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Terms of trade improvement: For the market of paper, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading paper, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0138",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Indifference curve and budget line: For the market of gasoline, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for gasoline and another product."
+    },
+    {
+      "id": "DGM_L3_0139",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Phillips curve (SR and LR): For the market of healthcare, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0140",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Terms of trade improvement: For the market of rice, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading rice, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0141",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Terms of trade improvement: For the market of labour, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading labour, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0142",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Indifference curve and budget line: For the market of education, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for education and another product."
+    },
+    {
+      "id": "DGM_L3_0143",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Production possibilities with economic growth: For the market of copper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing copper."
+    },
+    {
+      "id": "DGM_L3_0144",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Phillips curve (SR and LR): For the market of healthcare, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0145",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Fiscal policy multiplier effect: For the market of sugar, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for sugar."
+    },
+    {
+      "id": "DGM_L3_0146",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Phillips curve (SR and LR): For the market of tourism, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0147",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Fiscal policy multiplier effect: For the market of healthcare, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for healthcare."
+    },
+    {
+      "id": "DGM_L3_0148",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Phillips curve (SR and LR): For the market of housing, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0149",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Phillips curve (SR and LR): For the market of labour, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0150",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Terms of trade improvement: For the market of bread, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading bread, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0151",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Terms of trade improvement: For the market of healthcare, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading healthcare, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0152",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Phillips curve (SR and LR): For the market of milk, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0153",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Production possibilities with economic growth: For the market of coal, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing coal."
+    },
+    {
+      "id": "DGM_L3_0154",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Phillips curve (SR and LR): For the market of electricity, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0155",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Fiscal policy multiplier effect: For the market of wheat, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for wheat."
+    },
+    {
+      "id": "DGM_L3_0156",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Indifference curve and budget line: For the market of education, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for education and another product."
+    },
+    {
+      "id": "DGM_L3_0157",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Indifference curve and budget line: For the market of labour, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for labour and another product."
+    },
+    {
+      "id": "DGM_L3_0158",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for bread.",
+      "prompt": "Phillips curve (SR and LR): For the market of bread, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0159",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Production possibilities with economic growth: For the market of technology, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing technology."
+    },
+    {
+      "id": "DGM_L3_0160",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Production possibilities with economic growth: For the market of copper, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing copper."
+    },
+    {
+      "id": "DGM_L3_0161",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Production possibilities with economic growth: For the market of coal, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing coal."
+    },
+    {
+      "id": "DGM_L3_0162",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for technology.",
+      "prompt": "Terms of trade improvement: For the market of technology, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading technology, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0163",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Production possibilities with economic growth: For the market of tourism, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing tourism."
+    },
+    {
+      "id": "DGM_L3_0164",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Terms of trade improvement: For the market of sugar, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading sugar, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0165",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Terms of trade improvement: For the market of rice, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading rice, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0166",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Fiscal policy multiplier effect: For the market of coal, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for coal."
+    },
+    {
+      "id": "DGM_L3_0167",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Phillips curve (SR and LR): For the market of tourism, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0168",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for sugar.",
+      "prompt": "Production possibilities with economic growth: For the market of sugar, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing sugar."
+    },
+    {
+      "id": "DGM_L3_0169",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Production possibilities with economic growth: For the market of milk, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing milk."
+    },
+    {
+      "id": "DGM_L3_0170",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Fiscal policy multiplier effect: For the market of copper, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for copper."
+    },
+    {
+      "id": "DGM_L3_0171",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Terms of trade improvement: For the market of paper, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading paper, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0172",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Terms of trade improvement: For the market of education, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading education, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0173",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Phillips curve (SR and LR): For the market of electricity, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0174",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Indifference curve and budget line: For the market of rice, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for rice and another product."
+    },
+    {
+      "id": "DGM_L3_0175",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Production possibilities with economic growth: For the market of gasoline, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing gasoline."
+    },
+    {
+      "id": "DGM_L3_0176",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for tourism.",
+      "prompt": "Phillips curve (SR and LR): For the market of tourism, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0177",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for gasoline.",
+      "prompt": "Indifference curve and budget line: For the market of gasoline, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for gasoline and another product."
+    },
+    {
+      "id": "DGM_L3_0178",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Terms of trade improvement: For the market of education, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading education, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0179",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for coal.",
+      "prompt": "Indifference curve and budget line: For the market of coal, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for coal and another product."
+    },
+    {
+      "id": "DGM_L3_0180",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Indifference curve and budget line: For the market of wheat, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for wheat and another product."
+    },
+    {
+      "id": "DGM_L3_0181",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Indifference curve and budget line: For the market of electricity, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for electricity and another product."
+    },
+    {
+      "id": "DGM_L3_0182",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Indifference curve and budget line: For the market of copper, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for copper and another product."
+    },
+    {
+      "id": "DGM_L3_0183",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for electricity.",
+      "prompt": "Phillips curve (SR and LR): For the market of electricity, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0184",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for transportation.",
+      "prompt": "Indifference curve and budget line: For the market of transportation, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for transportation and another product."
+    },
+    {
+      "id": "DGM_L3_0185",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Indifference curve and budget line: For the market of copper, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for copper and another product."
+    },
+    {
+      "id": "DGM_L3_0186",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for healthcare.",
+      "prompt": "Fiscal policy multiplier effect: For the market of healthcare, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for healthcare."
+    },
+    {
+      "id": "DGM_L3_0187",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Terms of trade improvement: For the market of steel, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading steel, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0188",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for oil.",
+      "prompt": "Fiscal policy multiplier effect: For the market of oil, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for oil."
+    },
+    {
+      "id": "DGM_L3_0189",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Fiscal policy multiplier effect: For the market of steel, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for steel."
+    },
+    {
+      "id": "DGM_L3_0190",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Terms of trade improvement: For the market of milk, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading milk, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0191",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for copper.",
+      "prompt": "Terms of trade improvement: For the market of copper, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading copper, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0192",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Fiscal policy multiplier effect",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Fiscal policy multiplier effect: For the market of paper, Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for {good}.",
+      "expectedDiagram": "Fiscal policy multiplier effect",
+      "keywords": [
+        "multiplier",
+        "fiscal policy",
+        "AD"
+      ],
+      "solutionExplanation": "Draw the impact of expansionary fiscal policy on aggregate demand and output, highlighting the multiplier effect for paper."
+    },
+    {
+      "id": "DGM_L3_0193",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for education.",
+      "prompt": "Indifference curve and budget line: For the market of education, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for education and another product."
+    },
+    {
+      "id": "DGM_L3_0194",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Phillips curve (SR and LR)",
+      "context": "Country X has recently experienced changes in the market for paper.",
+      "prompt": "Phillips curve (SR and LR): For the market of paper, Draw the short\u2011run and long\u2011run Phillips curves, demonstrating the trade\u2011off between inflation and unemployment.",
+      "expectedDiagram": "Phillips curve (SR and LR)",
+      "keywords": [
+        "Phillips curve",
+        "inflation",
+        "unemployment"
+      ],
+      "solutionExplanation": "Draw the short\u2011run and long\u2011run phillips curves, demonstrating the trade\u2011off between inflation and unemployment."
+    },
+    {
+      "id": "DGM_L3_0195",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for milk.",
+      "prompt": "Production possibilities with economic growth: For the market of milk, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing milk."
+    },
+    {
+      "id": "DGM_L3_0196",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for wheat.",
+      "prompt": "Production possibilities with economic growth: For the market of wheat, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing wheat."
+    },
+    {
+      "id": "DGM_L3_0197",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for rice.",
+      "prompt": "Indifference curve and budget line: For the market of rice, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for rice and another product."
+    },
+    {
+      "id": "DGM_L3_0198",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Indifference curve and budget line",
+      "context": "Country X has recently experienced changes in the market for housing.",
+      "prompt": "Indifference curve and budget line: For the market of housing, Depict consumer equilibrium using an indifference curve tangent to the budget line for {good} and another product.",
+      "expectedDiagram": "Indifference curve and budget line",
+      "keywords": [
+        "indifference curve",
+        "budget line",
+        "consumer choice"
+      ],
+      "solutionExplanation": "Depict consumer equilibrium using an indifference curve tangent to the budget line for housing and another product."
+    },
+    {
+      "id": "DGM_L3_0199",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Terms of trade improvement",
+      "context": "Country X has recently experienced changes in the market for labour.",
+      "prompt": "Terms of trade improvement: For the market of labour, Illustrate how an improvement in the terms of trade affects a country trading {good}, showing export and import price indices.",
+      "expectedDiagram": "Terms of trade improvement",
+      "keywords": [
+        "terms of trade",
+        "export prices",
+        "import prices"
+      ],
+      "solutionExplanation": "Illustrate how an improvement in the terms of trade affects a country trading labour, showing export and import price indices."
+    },
+    {
+      "id": "DGM_L3_0200",
+      "mode": "diagram",
+      "level": 3,
+      "topic": "Production possibilities with economic growth",
+      "context": "Country X has recently experienced changes in the market for steel.",
+      "prompt": "Production possibilities with economic growth: For the market of steel, Show how economic growth shifts the production possibilities frontier outward for an economy producing {good}.",
+      "expectedDiagram": "Production possibilities with economic growth",
+      "keywords": [
+        "PPF",
+        "economic growth",
+        "outward shift"
+      ],
+      "solutionExplanation": "Show how economic growth shifts the production possibilities frontier outward for an economy producing steel."
+    }
+  ],
+  "calculation": [
+    {
+      "id": "CAL_L1_0001",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.76. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.76
+      },
+      "answer": 4.12
+    },
+    {
+      "id": "CAL_L1_0002",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 9246 thousand people, of whom 879 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 9246,
+        "unemployed": 879
+      },
+      "answer": 9.51
+    },
+    {
+      "id": "CAL_L1_0003",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5947 thousand people, of whom 705 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5947,
+        "unemployed": 705
+      },
+      "answer": 11.85
+    },
+    {
+      "id": "CAL_L1_0004",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.68. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.68
+      },
+      "answer": 3.14
+    },
+    {
+      "id": "CAL_L1_0005",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 96191 million last year and 92918.14 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 96191,
+        "realGDPCurrent": 92918.14
+      },
+      "answer": -3.4
+    },
+    {
+      "id": "CAL_L1_0006",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 95.90 and an import price index of 124.46. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 95.9,
+        "importPriceIndex": 124.46
+      },
+      "answer": 77.05
+    },
+    {
+      "id": "CAL_L1_0007",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 104 units to 126 units when its price changed from 46.87 to 38.83. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 104,
+        "quantity2": 126,
+        "price1": 46.87,
+        "price2": 38.83
+      },
+      "answer": -1.02
+    },
+    {
+      "id": "CAL_L1_0008",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 77227 million and a real GDP of 89511 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 77227,
+        "realGDP": 89511
+      },
+      "answer": 86.28
+    },
+    {
+      "id": "CAL_L1_0009",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 162438 million and a real GDP of 140419 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 162438,
+        "realGDP": 140419
+      },
+      "answer": 115.68
+    },
+    {
+      "id": "CAL_L1_0010",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 142674 million last year and 139951.68 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 142674,
+        "realGDPCurrent": 139951.68
+      },
+      "answer": -1.91
+    },
+    {
+      "id": "CAL_L1_0011",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 1276 thousand people, of whom 80 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 1276,
+        "unemployed": 80
+      },
+      "answer": 6.27
+    },
+    {
+      "id": "CAL_L1_0012",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 8.53 currency units per unit on a good, and 1976 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1976,
+        "taxRate": 8.53
+      },
+      "answer": 16863.69
+    },
+    {
+      "id": "CAL_L1_0013",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 141.59 in the base year and 177.64 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 141.59,
+        "currentBasketCost": 177.64
+      },
+      "answer": 125.46
+    },
+    {
+      "id": "CAL_L1_0014",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 101.71 last year and 103.20 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 101.71,
+        "cpiCurrent": 103.2
+      },
+      "answer": 1.46
+    },
+    {
+      "id": "CAL_L1_0015",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 126 units to 89 units when its price changed from 14.49 to 46.72. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 126,
+        "quantity2": 89,
+        "price1": 14.49,
+        "price2": 46.72
+      },
+      "answer": -0.33
+    },
+    {
+      "id": "CAL_L1_0016",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.76. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.76
+      },
+      "answer": 4.17
+    },
+    {
+      "id": "CAL_L1_0017",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 80.46 and an import price index of 101.55. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 80.46,
+        "importPriceIndex": 101.55
+      },
+      "answer": 79.23
+    },
+    {
+      "id": "CAL_L1_0018",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.55. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.55
+      },
+      "answer": 2.22
+    },
+    {
+      "id": "CAL_L1_0019",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 41089 million and a GDP deflator of 94.99. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 41089,
+        "GDPdeflator": 94.99
+      },
+      "answer": 43254.21
+    },
+    {
+      "id": "CAL_L1_0020",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 163899 million and a real GDP of 44768 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 163899,
+        "realGDP": 44768
+      },
+      "answer": 366.11
+    },
+    {
+      "id": "CAL_L1_0021",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 117.33 last year and 131.33 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 117.33,
+        "cpiCurrent": 131.33
+      },
+      "answer": 11.93
+    },
+    {
+      "id": "CAL_L1_0022",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 6759 thousand people, of whom 879 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 6759,
+        "unemployed": 879
+      },
+      "answer": 13.0
+    },
+    {
+      "id": "CAL_L1_0023",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.31. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.31
+      },
+      "answer": 1.44
+    },
+    {
+      "id": "CAL_L1_0024",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 8248 thousand people, of whom 1160 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 8248,
+        "unemployed": 1160
+      },
+      "answer": 14.06
+    },
+    {
+      "id": "CAL_L1_0025",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 138 units to 187 units when its price changed from 12.05 to 37.69. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 138,
+        "quantity2": 187,
+        "price1": 12.05,
+        "price2": 37.69
+      },
+      "answer": 0.29
+    },
+    {
+      "id": "CAL_L1_0026",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 106.74 and an import price index of 107.28. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 106.74,
+        "importPriceIndex": 107.28
+      },
+      "answer": 99.5
+    },
+    {
+      "id": "CAL_L1_0027",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 53.22 in the base year and 74.07 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 53.22,
+        "currentBasketCost": 74.07
+      },
+      "answer": 139.16
+    },
+    {
+      "id": "CAL_L1_0028",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 160947 million and a real GDP of 154579 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 160947,
+        "realGDP": 154579
+      },
+      "answer": 104.12
+    },
+    {
+      "id": "CAL_L1_0029",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 3265 thousand people, of whom 481 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 3265,
+        "unemployed": 481
+      },
+      "answer": 14.73
+    },
+    {
+      "id": "CAL_L1_0030",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 115.54 last year and 120.24 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 115.54,
+        "cpiCurrent": 120.24
+      },
+      "answer": 4.07
+    },
+    {
+      "id": "CAL_L1_0031",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 135.74 in the base year and 149.80 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 135.74,
+        "currentBasketCost": 149.8
+      },
+      "answer": 110.36
+    },
+    {
+      "id": "CAL_L1_0032",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 121.75 and an import price index of 81.31. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 121.75,
+        "importPriceIndex": 81.31
+      },
+      "answer": 149.74
+    },
+    {
+      "id": "CAL_L1_0033",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 6.73 currency units per unit on a good, and 771 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 771,
+        "taxRate": 6.73
+      },
+      "answer": 5188.82
+    },
+    {
+      "id": "CAL_L1_0034",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 86.08 and an import price index of 114.92. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 86.08,
+        "importPriceIndex": 114.92
+      },
+      "answer": 74.91
+    },
+    {
+      "id": "CAL_L1_0035",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 45922 million and a GDP deflator of 85.54. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 45922,
+        "GDPdeflator": 85.54
+      },
+      "answer": 53686.95
+    },
+    {
+      "id": "CAL_L1_0036",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 122652 million and a real GDP of 137848 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 122652,
+        "realGDP": 137848
+      },
+      "answer": 88.98
+    },
+    {
+      "id": "CAL_L1_0037",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 51821 million and a GDP deflator of 98.67. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 51821,
+        "GDPdeflator": 98.67
+      },
+      "answer": 52520.89
+    },
+    {
+      "id": "CAL_L1_0038",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 1.94 currency units per unit on a good, and 1671 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1671,
+        "taxRate": 1.94
+      },
+      "answer": 3246.83
+    },
+    {
+      "id": "CAL_L1_0039",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 104.32 in the base year and 147.63 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 104.32,
+        "currentBasketCost": 147.63
+      },
+      "answer": 141.53
+    },
+    {
+      "id": "CAL_L1_0040",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 45796 million and a GDP deflator of 109.62. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 45796,
+        "GDPdeflator": 109.62
+      },
+      "answer": 41775.19
+    },
+    {
+      "id": "CAL_L1_0041",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 150930 million and a real GDP of 48672 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 150930,
+        "realGDP": 48672
+      },
+      "answer": 310.1
+    },
+    {
+      "id": "CAL_L1_0042",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 84348 million last year and 92083.31 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 84348,
+        "realGDPCurrent": 92083.31
+      },
+      "answer": 9.17
+    },
+    {
+      "id": "CAL_L1_0043",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 75698 million last year and 74796.85 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 75698,
+        "realGDPCurrent": 74796.85
+      },
+      "answer": -1.19
+    },
+    {
+      "id": "CAL_L1_0044",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 76275 million and a GDP deflator of 106.32. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 76275,
+        "GDPdeflator": 106.32
+      },
+      "answer": 71741.95
+    },
+    {
+      "id": "CAL_L1_0045",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 128028 million and a real GDP of 129909 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 128028,
+        "realGDP": 129909
+      },
+      "answer": 98.55
+    },
+    {
+      "id": "CAL_L1_0046",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5709 thousand people, of whom 995 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5709,
+        "unemployed": 995
+      },
+      "answer": 17.43
+    },
+    {
+      "id": "CAL_L1_0047",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 99.50 and an import price index of 93.75. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 99.5,
+        "importPriceIndex": 93.75
+      },
+      "answer": 106.14
+    },
+    {
+      "id": "CAL_L1_0048",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5471 thousand people, of whom 186 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5471,
+        "unemployed": 186
+      },
+      "answer": 3.4
+    },
+    {
+      "id": "CAL_L1_0049",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.33. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.33
+      },
+      "answer": 1.49
+    },
+    {
+      "id": "CAL_L1_0050",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 71225 million and a real GDP of 119531 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 71225,
+        "realGDP": 119531
+      },
+      "answer": 59.59
+    },
+    {
+      "id": "CAL_L1_0051",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 150 units to 88 units when its price changed from 23.94 to 21.84. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 150,
+        "quantity2": 88,
+        "price1": 23.94,
+        "price2": 21.84
+      },
+      "answer": 5.67
+    },
+    {
+      "id": "CAL_L1_0052",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 110 units to 108 units when its price changed from 22.49 to 49.09. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 110,
+        "quantity2": 108,
+        "price1": 22.49,
+        "price2": 49.09
+      },
+      "answer": -0.02
+    },
+    {
+      "id": "CAL_L1_0053",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 4.06 currency units per unit on a good, and 539 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 539,
+        "taxRate": 4.06
+      },
+      "answer": 2185.82
+    },
+    {
+      "id": "CAL_L1_0054",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 108348 million last year and 101239.33 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 108348,
+        "realGDPCurrent": 101239.33
+      },
+      "answer": -6.56
+    },
+    {
+      "id": "CAL_L1_0055",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 103 units to 113 units when its price changed from 23.83 to 10.28. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 103,
+        "quantity2": 113,
+        "price1": 23.83,
+        "price2": 10.28
+      },
+      "answer": -0.12
+    },
+    {
+      "id": "CAL_L1_0056",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 107.86 last year and 116.82 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 107.86,
+        "cpiCurrent": 116.82
+      },
+      "answer": 8.3
+    },
+    {
+      "id": "CAL_L1_0057",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 78.44 in the base year and 100.08 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 78.44,
+        "currentBasketCost": 100.08
+      },
+      "answer": 127.59
+    },
+    {
+      "id": "CAL_L1_0058",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 101.85 in the base year and 118.75 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 101.85,
+        "currentBasketCost": 118.75
+      },
+      "answer": 116.59
+    },
+    {
+      "id": "CAL_L1_0059",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 81467 million last year and 93757.59 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 81467,
+        "realGDPCurrent": 93757.59
+      },
+      "answer": 15.09
+    },
+    {
+      "id": "CAL_L1_0060",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 141893 million last year and 141657.36 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 141893,
+        "realGDPCurrent": 141657.36
+      },
+      "answer": -0.17
+    },
+    {
+      "id": "CAL_L1_0061",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 4.59 currency units per unit on a good, and 1555 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1555,
+        "taxRate": 4.59
+      },
+      "answer": 7142.41
+    },
+    {
+      "id": "CAL_L1_0062",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 6740 thousand people, of whom 726 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 6740,
+        "unemployed": 726
+      },
+      "answer": 10.77
+    },
+    {
+      "id": "CAL_L1_0063",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 9.52 currency units per unit on a good, and 1720 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1720,
+        "taxRate": 9.52
+      },
+      "answer": 16378.14
+    },
+    {
+      "id": "CAL_L1_0064",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 104.10 in the base year and 145.37 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 104.1,
+        "currentBasketCost": 145.37
+      },
+      "answer": 139.64
+    },
+    {
+      "id": "CAL_L1_0065",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 126.62 and an import price index of 98.61. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 126.62,
+        "importPriceIndex": 98.61
+      },
+      "answer": 128.4
+    },
+    {
+      "id": "CAL_L1_0066",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 97.74 last year and 110.76 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 97.74,
+        "cpiCurrent": 110.76
+      },
+      "answer": 13.33
+    },
+    {
+      "id": "CAL_L1_0067",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 62039 million and a GDP deflator of 93.89. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 62039,
+        "GDPdeflator": 93.89
+      },
+      "answer": 66076.15
+    },
+    {
+      "id": "CAL_L1_0068",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 2931 thousand people, of whom 219 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 2931,
+        "unemployed": 219
+      },
+      "answer": 7.47
+    },
+    {
+      "id": "CAL_L1_0069",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 57758 million last year and 64337.42 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 57758,
+        "realGDPCurrent": 64337.42
+      },
+      "answer": 11.39
+    },
+    {
+      "id": "CAL_L1_0070",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 95.31 and an import price index of 95.30. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 95.31,
+        "importPriceIndex": 95.3
+      },
+      "answer": 100.01
+    },
+    {
+      "id": "CAL_L1_0071",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 22498 million and a GDP deflator of 96.42. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 22498,
+        "GDPdeflator": 96.42
+      },
+      "answer": 23333.3
+    },
+    {
+      "id": "CAL_L1_0072",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 113 units to 166 units when its price changed from 10.53 to 35.88. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 113,
+        "quantity2": 166,
+        "price1": 10.53,
+        "price2": 35.88
+      },
+      "answer": 0.35
+    },
+    {
+      "id": "CAL_L1_0073",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 98.75 and an import price index of 81.45. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 98.75,
+        "importPriceIndex": 81.45
+      },
+      "answer": 121.23
+    },
+    {
+      "id": "CAL_L1_0074",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.64. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.64
+      },
+      "answer": 2.78
+    },
+    {
+      "id": "CAL_L1_0075",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 99.65 last year and 102.33 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 99.65,
+        "cpiCurrent": 102.33
+      },
+      "answer": 2.69
+    },
+    {
+      "id": "CAL_L1_0076",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 96.18 last year and 100.33 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 96.18,
+        "cpiCurrent": 100.33
+      },
+      "answer": 4.32
+    },
+    {
+      "id": "CAL_L1_0077",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 81.16 in the base year and 121.46 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 81.16,
+        "currentBasketCost": 121.46
+      },
+      "answer": 149.67
+    },
+    {
+      "id": "CAL_L1_0078",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 141720 million last year and 146057.64 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 141720,
+        "realGDPCurrent": 146057.64
+      },
+      "answer": 3.06
+    },
+    {
+      "id": "CAL_L1_0079",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 115 units to 125 units when its price changed from 31.08 to 27.14. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 115,
+        "quantity2": 125,
+        "price1": 31.08,
+        "price2": 27.14
+      },
+      "answer": -0.62
+    },
+    {
+      "id": "CAL_L1_0080",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 171 units to 148 units when its price changed from 38.53 to 27.13. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 171,
+        "quantity2": 148,
+        "price1": 38.53,
+        "price2": 27.13
+      },
+      "answer": 0.42
+    },
+    {
+      "id": "CAL_L1_0081",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 89961 million and a GDP deflator of 81.98. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 89961,
+        "GDPdeflator": 81.98
+      },
+      "answer": 109729.91
+    },
+    {
+      "id": "CAL_L1_0082",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 139.92 in the base year and 175.93 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 139.92,
+        "currentBasketCost": 175.93
+      },
+      "answer": 125.74
+    },
+    {
+      "id": "CAL_L1_0083",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 59846 million and a GDP deflator of 103.06. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 59846,
+        "GDPdeflator": 103.06
+      },
+      "answer": 58066.44
+    },
+    {
+      "id": "CAL_L1_0084",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 178 units to 98 units when its price changed from 26.86 to 13.65. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 178,
+        "quantity2": 98,
+        "price1": 26.86,
+        "price2": 13.65
+      },
+      "answer": 0.89
+    },
+    {
+      "id": "CAL_L1_0085",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 38453 million and a GDP deflator of 115.48. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 38453,
+        "GDPdeflator": 115.48
+      },
+      "answer": 33298.54
+    },
+    {
+      "id": "CAL_L1_0086",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.70. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.7
+      },
+      "answer": 3.38
+    },
+    {
+      "id": "CAL_L1_0087",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5501 thousand people, of whom 59 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5501,
+        "unemployed": 59
+      },
+      "answer": 1.07
+    },
+    {
+      "id": "CAL_L1_0088",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.65. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.65
+      },
+      "answer": 2.84
+    },
+    {
+      "id": "CAL_L1_0089",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 157 units to 84 units when its price changed from 16.87 to 24.18. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 157,
+        "quantity2": 84,
+        "price1": 16.87,
+        "price2": 24.18
+      },
+      "answer": -1.7
+    },
+    {
+      "id": "CAL_L1_0090",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 109.94 and an import price index of 84.56. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 109.94,
+        "importPriceIndex": 84.56
+      },
+      "answer": 130.01
+    },
+    {
+      "id": "CAL_L1_0091",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 106 units to 165 units when its price changed from 27.71 to 13.53. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 106,
+        "quantity2": 165,
+        "price1": 27.71,
+        "price2": 13.53
+      },
+      "answer": -0.63
+    },
+    {
+      "id": "CAL_L1_0092",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.23. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.23
+      },
+      "answer": 1.29
+    },
+    {
+      "id": "CAL_L1_0093",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 1.67 currency units per unit on a good, and 507 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 507,
+        "taxRate": 1.67
+      },
+      "answer": 847.8
+    },
+    {
+      "id": "CAL_L1_0094",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 2.96 currency units per unit on a good, and 1191 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1191,
+        "taxRate": 2.96
+      },
+      "answer": 3530.53
+    },
+    {
+      "id": "CAL_L1_0095",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 42560 million and a GDP deflator of 93.11. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 42560,
+        "GDPdeflator": 93.11
+      },
+      "answer": 45711.1
+    },
+    {
+      "id": "CAL_L1_0096",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 2435 thousand people, of whom 405 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 2435,
+        "unemployed": 405
+      },
+      "answer": 16.63
+    },
+    {
+      "id": "CAL_L1_0097",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 96.36 in the base year and 131.74 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 96.36,
+        "currentBasketCost": 131.74
+      },
+      "answer": 136.71
+    },
+    {
+      "id": "CAL_L1_0098",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 97692 million and a real GDP of 129568 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 97692,
+        "realGDP": 129568
+      },
+      "answer": 75.4
+    },
+    {
+      "id": "CAL_L1_0099",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.82. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.82
+      },
+      "answer": 5.45
+    },
+    {
+      "id": "CAL_L1_0100",
+      "mode": "calculation",
+      "level": 1,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 56137 million last year and 57367.37 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 56137,
+        "realGDPCurrent": 57367.37
+      },
+      "answer": 2.19
+    },
+    {
+      "id": "CAL_L2_0001",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 38770 million and a GDP deflator of 116.92. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 38770,
+        "GDPdeflator": 116.92
+      },
+      "answer": 33160.2
+    },
+    {
+      "id": "CAL_L2_0002",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 109.61 last year and 120.15 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 109.61,
+        "cpiCurrent": 120.15
+      },
+      "answer": 9.61
+    },
+    {
+      "id": "CAL_L2_0003",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 198 units to 106 units when its price changed from 33.44 to 27.25. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 198,
+        "quantity2": 106,
+        "price1": 33.44,
+        "price2": 27.25
+      },
+      "answer": 2.97
+    },
+    {
+      "id": "CAL_L2_0004",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 73258 million last year and 75943.33 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 73258,
+        "realGDPCurrent": 75943.33
+      },
+      "answer": 3.67
+    },
+    {
+      "id": "CAL_L2_0005",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 51.53 in the base year and 73.72 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 51.53,
+        "currentBasketCost": 73.72
+      },
+      "answer": 143.06
+    },
+    {
+      "id": "CAL_L2_0006",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.34. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.34
+      },
+      "answer": 1.51
+    },
+    {
+      "id": "CAL_L2_0007",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 108.65 and an import price index of 91.04. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 108.65,
+        "importPriceIndex": 91.04
+      },
+      "answer": 119.34
+    },
+    {
+      "id": "CAL_L2_0008",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 3795 thousand people, of whom 331 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 3795,
+        "unemployed": 331
+      },
+      "answer": 8.72
+    },
+    {
+      "id": "CAL_L2_0009",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 106.87 last year and 111.34 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 106.87,
+        "cpiCurrent": 111.34
+      },
+      "answer": 4.18
+    },
+    {
+      "id": "CAL_L2_0010",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 136720 million and a real GDP of 96079 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 136720,
+        "realGDP": 96079
+      },
+      "answer": 142.3
+    },
+    {
+      "id": "CAL_L2_0011",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.80. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.8
+      },
+      "answer": 4.89
+    },
+    {
+      "id": "CAL_L2_0012",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 94123 million and a real GDP of 43275 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 94123,
+        "realGDP": 43275
+      },
+      "answer": 217.5
+    },
+    {
+      "id": "CAL_L2_0013",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 128965 million last year and 124694.91 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 128965,
+        "realGDPCurrent": 124694.91
+      },
+      "answer": -3.31
+    },
+    {
+      "id": "CAL_L2_0014",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 100.32 last year and 114.06 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 100.32,
+        "cpiCurrent": 114.06
+      },
+      "answer": 13.7
+    },
+    {
+      "id": "CAL_L2_0015",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 9545 thousand people, of whom 1828 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 9545,
+        "unemployed": 1828
+      },
+      "answer": 19.15
+    },
+    {
+      "id": "CAL_L2_0016",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 92.57 last year and 105.68 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 92.57,
+        "cpiCurrent": 105.68
+      },
+      "answer": 14.17
+    },
+    {
+      "id": "CAL_L2_0017",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 113.30 last year and 116.61 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 113.3,
+        "cpiCurrent": 116.61
+      },
+      "answer": 2.92
+    },
+    {
+      "id": "CAL_L2_0018",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 100.68 last year and 105.71 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 100.68,
+        "cpiCurrent": 105.71
+      },
+      "answer": 4.99
+    },
+    {
+      "id": "CAL_L2_0019",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 49352 million and a GDP deflator of 105.91. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 49352,
+        "GDPdeflator": 105.91
+      },
+      "answer": 46597.84
+    },
+    {
+      "id": "CAL_L2_0020",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5254 thousand people, of whom 782 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5254,
+        "unemployed": 782
+      },
+      "answer": 14.88
+    },
+    {
+      "id": "CAL_L2_0021",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 1232 thousand people, of whom 59 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 1232,
+        "unemployed": 59
+      },
+      "answer": 4.79
+    },
+    {
+      "id": "CAL_L2_0022",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 124.74 and an import price index of 129.44. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 124.74,
+        "importPriceIndex": 129.44
+      },
+      "answer": 96.36
+    },
+    {
+      "id": "CAL_L2_0023",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 9728 thousand people, of whom 883 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 9728,
+        "unemployed": 883
+      },
+      "answer": 9.08
+    },
+    {
+      "id": "CAL_L2_0024",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 45616 million and a GDP deflator of 87.01. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 45616,
+        "GDPdeflator": 87.01
+      },
+      "answer": 52424.28
+    },
+    {
+      "id": "CAL_L2_0025",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 95 units to 86 units when its price changed from 45.95 to 37.59. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 95,
+        "quantity2": 86,
+        "price1": 45.95,
+        "price2": 37.59
+      },
+      "answer": 0.5
+    },
+    {
+      "id": "CAL_L2_0026",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 132927 million and a real GDP of 73772 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 132927,
+        "realGDP": 73772
+      },
+      "answer": 180.19
+    },
+    {
+      "id": "CAL_L2_0027",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 4.18 currency units per unit on a good, and 1114 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1114,
+        "taxRate": 4.18
+      },
+      "answer": 4658.56
+    },
+    {
+      "id": "CAL_L2_0028",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 127962 million and a real GDP of 123679 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 127962,
+        "realGDP": 123679
+      },
+      "answer": 103.46
+    },
+    {
+      "id": "CAL_L2_0029",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 1.90 currency units per unit on a good, and 522 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 522,
+        "taxRate": 1.9
+      },
+      "answer": 993.9
+    },
+    {
+      "id": "CAL_L2_0030",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 8668 thousand people, of whom 286 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 8668,
+        "unemployed": 286
+      },
+      "answer": 3.3
+    },
+    {
+      "id": "CAL_L2_0031",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 86237 million and a GDP deflator of 81.71. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 86237,
+        "GDPdeflator": 81.71
+      },
+      "answer": 105537.35
+    },
+    {
+      "id": "CAL_L2_0032",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 105.34 in the base year and 114.02 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 105.34,
+        "currentBasketCost": 114.02
+      },
+      "answer": 108.24
+    },
+    {
+      "id": "CAL_L2_0033",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 115.33 last year and 123.04 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 115.33,
+        "cpiCurrent": 123.04
+      },
+      "answer": 6.68
+    },
+    {
+      "id": "CAL_L2_0034",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 104.80 last year and 115.10 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 104.8,
+        "cpiCurrent": 115.1
+      },
+      "answer": 9.83
+    },
+    {
+      "id": "CAL_L2_0035",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 74.53 in the base year and 102.99 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 74.53,
+        "currentBasketCost": 102.99
+      },
+      "answer": 138.18
+    },
+    {
+      "id": "CAL_L2_0036",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 8805 thousand people, of whom 961 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 8805,
+        "unemployed": 961
+      },
+      "answer": 10.91
+    },
+    {
+      "id": "CAL_L2_0037",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 158 units to 118 units when its price changed from 29.09 to 18.74. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 158,
+        "quantity2": 118,
+        "price1": 29.09,
+        "price2": 18.74
+      },
+      "answer": 0.67
+    },
+    {
+      "id": "CAL_L2_0038",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 67020 million and a GDP deflator of 113.68. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 67020,
+        "GDPdeflator": 113.68
+      },
+      "answer": 58954.9
+    },
+    {
+      "id": "CAL_L2_0039",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 94.44 and an import price index of 85.90. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 94.44,
+        "importPriceIndex": 85.9
+      },
+      "answer": 109.95
+    },
+    {
+      "id": "CAL_L2_0040",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 87.30 and an import price index of 91.26. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 87.3,
+        "importPriceIndex": 91.26
+      },
+      "answer": 95.66
+    },
+    {
+      "id": "CAL_L2_0041",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 96.77 and an import price index of 97.68. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 96.77,
+        "importPriceIndex": 97.68
+      },
+      "answer": 99.07
+    },
+    {
+      "id": "CAL_L2_0042",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 133934 million last year and 152628.33 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 133934,
+        "realGDPCurrent": 152628.33
+      },
+      "answer": 13.96
+    },
+    {
+      "id": "CAL_L2_0043",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 182 units to 172 units when its price changed from 21.84 to 46.28. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 182,
+        "quantity2": 172,
+        "price1": 21.84,
+        "price2": 46.28
+      },
+      "answer": -0.08
+    },
+    {
+      "id": "CAL_L2_0044",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 77422 million last year and 85279.40 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 77422,
+        "realGDPCurrent": 85279.4
+      },
+      "answer": 10.15
+    },
+    {
+      "id": "CAL_L2_0045",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 77325 million and a GDP deflator of 93.14. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 77325,
+        "GDPdeflator": 93.14
+      },
+      "answer": 83022.32
+    },
+    {
+      "id": "CAL_L2_0046",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 140.60 in the base year and 193.67 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 140.6,
+        "currentBasketCost": 193.67
+      },
+      "answer": 137.75
+    },
+    {
+      "id": "CAL_L2_0047",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 68.74 in the base year and 72.42 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 68.74,
+        "currentBasketCost": 72.42
+      },
+      "answer": 105.35
+    },
+    {
+      "id": "CAL_L2_0048",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 92 units to 173 units when its price changed from 18.01 to 47.95. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 92,
+        "quantity2": 173,
+        "price1": 18.01,
+        "price2": 47.95
+      },
+      "answer": 0.67
+    },
+    {
+      "id": "CAL_L2_0049",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 80.49 and an import price index of 128.89. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 80.49,
+        "importPriceIndex": 128.89
+      },
+      "answer": 62.45
+    },
+    {
+      "id": "CAL_L2_0050",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 96127 million and a real GDP of 86465 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 96127,
+        "realGDP": 86465
+      },
+      "answer": 111.17
+    },
+    {
+      "id": "CAL_L2_0051",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 1.46 currency units per unit on a good, and 1309 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1309,
+        "taxRate": 1.46
+      },
+      "answer": 1904.96
+    },
+    {
+      "id": "CAL_L2_0052",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 110.31 and an import price index of 123.68. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 110.31,
+        "importPriceIndex": 123.68
+      },
+      "answer": 89.19
+    },
+    {
+      "id": "CAL_L2_0053",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 122.13 and an import price index of 89.24. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 122.13,
+        "importPriceIndex": 89.24
+      },
+      "answer": 136.86
+    },
+    {
+      "id": "CAL_L2_0054",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 63.99 in the base year and 85.66 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 63.99,
+        "currentBasketCost": 85.66
+      },
+      "answer": 133.87
+    },
+    {
+      "id": "CAL_L2_0055",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 114.20 last year and 127.17 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 114.2,
+        "cpiCurrent": 127.17
+      },
+      "answer": 11.37
+    },
+    {
+      "id": "CAL_L2_0056",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 89 units to 120 units when its price changed from 29.52 to 32.85. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 89,
+        "quantity2": 120,
+        "price1": 29.52,
+        "price2": 32.85
+      },
+      "answer": 2.78
+    },
+    {
+      "id": "CAL_L2_0057",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 103.46 last year and 109.56 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 103.46,
+        "cpiCurrent": 109.56
+      },
+      "answer": 5.89
+    },
+    {
+      "id": "CAL_L2_0058",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 7.84 currency units per unit on a good, and 1409 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1409,
+        "taxRate": 7.84
+      },
+      "answer": 11045.19
+    },
+    {
+      "id": "CAL_L2_0059",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 104 units to 130 units when its price changed from 45.56 to 19.70. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 104,
+        "quantity2": 130,
+        "price1": 45.56,
+        "price2": 19.7
+      },
+      "answer": -0.28
+    },
+    {
+      "id": "CAL_L2_0060",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 116.45 in the base year and 163.40 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 116.45,
+        "currentBasketCost": 163.4
+      },
+      "answer": 140.31
+    },
+    {
+      "id": "CAL_L2_0061",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 8947 thousand people, of whom 402 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 8947,
+        "unemployed": 402
+      },
+      "answer": 4.49
+    },
+    {
+      "id": "CAL_L2_0062",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.73. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.73
+      },
+      "answer": 3.68
+    },
+    {
+      "id": "CAL_L2_0063",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 124.40 in the base year and 138.09 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 124.4,
+        "currentBasketCost": 138.09
+      },
+      "answer": 111.0
+    },
+    {
+      "id": "CAL_L2_0064",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 97290 million and a GDP deflator of 109.23. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 97290,
+        "GDPdeflator": 109.23
+      },
+      "answer": 89068.88
+    },
+    {
+      "id": "CAL_L2_0065",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 128531 million and a real GDP of 134756 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 128531,
+        "realGDP": 134756
+      },
+      "answer": 95.38
+    },
+    {
+      "id": "CAL_L2_0066",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.66. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.66
+      },
+      "answer": 2.95
+    },
+    {
+      "id": "CAL_L2_0067",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 104.61 last year and 118.31 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 104.61,
+        "cpiCurrent": 118.31
+      },
+      "answer": 13.1
+    },
+    {
+      "id": "CAL_L2_0068",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 123.18 in the base year and 147.30 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 123.18,
+        "currentBasketCost": 147.3
+      },
+      "answer": 119.58
+    },
+    {
+      "id": "CAL_L2_0069",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 98.60 last year and 113.37 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 98.6,
+        "cpiCurrent": 113.37
+      },
+      "answer": 14.98
+    },
+    {
+      "id": "CAL_L2_0070",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 94.74 and an import price index of 93.08. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 94.74,
+        "importPriceIndex": 93.08
+      },
+      "answer": 101.79
+    },
+    {
+      "id": "CAL_L2_0071",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 2.48 currency units per unit on a good, and 1979 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1979,
+        "taxRate": 2.48
+      },
+      "answer": 4908.66
+    },
+    {
+      "id": "CAL_L2_0072",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 8.70 currency units per unit on a good, and 1706 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1706,
+        "taxRate": 8.7
+      },
+      "answer": 14842.46
+    },
+    {
+      "id": "CAL_L2_0073",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 116.59 last year and 126.62 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 116.59,
+        "cpiCurrent": 126.62
+      },
+      "answer": 8.6
+    },
+    {
+      "id": "CAL_L2_0074",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 80.88 in the base year and 92.19 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 80.88,
+        "currentBasketCost": 92.19
+      },
+      "answer": 113.98
+    },
+    {
+      "id": "CAL_L2_0075",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.77. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.77
+      },
+      "answer": 4.27
+    },
+    {
+      "id": "CAL_L2_0076",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 125.00 and an import price index of 113.73. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 125.0,
+        "importPriceIndex": 113.73
+      },
+      "answer": 109.91
+    },
+    {
+      "id": "CAL_L2_0077",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 8.05 currency units per unit on a good, and 1579 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1579,
+        "taxRate": 8.05
+      },
+      "answer": 12709.26
+    },
+    {
+      "id": "CAL_L2_0078",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 118 units to 198 units when its price changed from 33.50 to 28.71. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 118,
+        "quantity2": 198,
+        "price1": 33.5,
+        "price2": 28.71
+      },
+      "answer": -3.29
+    },
+    {
+      "id": "CAL_L2_0079",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 4209 thousand people, of whom 585 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 4209,
+        "unemployed": 585
+      },
+      "answer": 13.9
+    },
+    {
+      "id": "CAL_L2_0080",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 4.39 currency units per unit on a good, and 1445 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1445,
+        "taxRate": 4.39
+      },
+      "answer": 6341.45
+    },
+    {
+      "id": "CAL_L2_0081",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 3845 thousand people, of whom 357 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 3845,
+        "unemployed": 357
+      },
+      "answer": 9.28
+    },
+    {
+      "id": "CAL_L2_0082",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 34159 million and a GDP deflator of 91.98. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 34159,
+        "GDPdeflator": 91.98
+      },
+      "answer": 37137.17
+    },
+    {
+      "id": "CAL_L2_0083",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 147272 million and a real GDP of 169378 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 147272,
+        "realGDP": 169378
+      },
+      "answer": 86.95
+    },
+    {
+      "id": "CAL_L2_0084",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 126.07 and an import price index of 105.14. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 126.07,
+        "importPriceIndex": 105.14
+      },
+      "answer": 119.9
+    },
+    {
+      "id": "CAL_L2_0085",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5624 thousand people, of whom 378 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5624,
+        "unemployed": 378
+      },
+      "answer": 6.72
+    },
+    {
+      "id": "CAL_L2_0086",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 72865 million last year and 67706.60 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 72865,
+        "realGDPCurrent": 67706.6
+      },
+      "answer": -7.08
+    },
+    {
+      "id": "CAL_L2_0087",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 3391 thousand people, of whom 531 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 3391,
+        "unemployed": 531
+      },
+      "answer": 15.66
+    },
+    {
+      "id": "CAL_L2_0088",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 99.67 and an import price index of 124.60. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 99.67,
+        "importPriceIndex": 124.6
+      },
+      "answer": 79.99
+    },
+    {
+      "id": "CAL_L2_0089",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 29426 million and a GDP deflator of 97.67. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 29426,
+        "GDPdeflator": 97.67
+      },
+      "answer": 30127.75
+    },
+    {
+      "id": "CAL_L2_0090",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.45. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.45
+      },
+      "answer": 1.81
+    },
+    {
+      "id": "CAL_L2_0091",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 117.28 last year and 129.62 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 117.28,
+        "cpiCurrent": 129.62
+      },
+      "answer": 10.52
+    },
+    {
+      "id": "CAL_L2_0092",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 162410 million and a real GDP of 70433 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 162410,
+        "realGDP": 70433
+      },
+      "answer": 230.59
+    },
+    {
+      "id": "CAL_L2_0093",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.63. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.63
+      },
+      "answer": 2.74
+    },
+    {
+      "id": "CAL_L2_0094",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 68976 million last year and 68947.31 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 68976,
+        "realGDPCurrent": 68947.31
+      },
+      "answer": -0.04
+    },
+    {
+      "id": "CAL_L2_0095",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 5.78 currency units per unit on a good, and 1679 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1679,
+        "taxRate": 5.78
+      },
+      "answer": 9709.34
+    },
+    {
+      "id": "CAL_L2_0096",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 104.20 last year and 114.46 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 104.2,
+        "cpiCurrent": 114.46
+      },
+      "answer": 9.84
+    },
+    {
+      "id": "CAL_L2_0097",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 112376 million and a real GDP of 166216 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 112376,
+        "realGDP": 166216
+      },
+      "answer": 67.61
+    },
+    {
+      "id": "CAL_L2_0098",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.68. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.68
+      },
+      "answer": 3.08
+    },
+    {
+      "id": "CAL_L2_0099",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 3.60 currency units per unit on a good, and 1401 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1401,
+        "taxRate": 3.6
+      },
+      "answer": 5040.83
+    },
+    {
+      "id": "CAL_L2_0100",
+      "mode": "calculation",
+      "level": 2,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 143912 million last year and 169335.56 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 143912,
+        "realGDPCurrent": 169335.56
+      },
+      "answer": 17.67
+    },
+    {
+      "id": "CAL_L3_0001",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 114.65 last year and 121.71 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 114.65,
+        "cpiCurrent": 121.71
+      },
+      "answer": 6.16
+    },
+    {
+      "id": "CAL_L3_0002",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 102.99 and an import price index of 82.91. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 102.99,
+        "importPriceIndex": 82.91
+      },
+      "answer": 124.22
+    },
+    {
+      "id": "CAL_L3_0003",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 83048 million last year and 95440.00 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 83048,
+        "realGDPCurrent": 95440.0
+      },
+      "answer": 14.92
+    },
+    {
+      "id": "CAL_L3_0004",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 135.33 in the base year and 188.79 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 135.33,
+        "currentBasketCost": 188.79
+      },
+      "answer": 139.5
+    },
+    {
+      "id": "CAL_L3_0005",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 119571 million last year and 142721.21 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 119571,
+        "realGDPCurrent": 142721.21
+      },
+      "answer": 19.36
+    },
+    {
+      "id": "CAL_L3_0006",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 121 units to 172 units when its price changed from 49.31 to 21.47. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 121,
+        "quantity2": 172,
+        "price1": 49.31,
+        "price2": 21.47
+      },
+      "answer": -0.44
+    },
+    {
+      "id": "CAL_L3_0007",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 3.70 currency units per unit on a good, and 1878 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1878,
+        "taxRate": 3.7
+      },
+      "answer": 6941.52
+    },
+    {
+      "id": "CAL_L3_0008",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 157092 million and a real GDP of 146699 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 157092,
+        "realGDP": 146699
+      },
+      "answer": 107.08
+    },
+    {
+      "id": "CAL_L3_0009",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 3413 thousand people, of whom 246 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 3413,
+        "unemployed": 246
+      },
+      "answer": 7.21
+    },
+    {
+      "id": "CAL_L3_0010",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 75401 million last year and 69609.22 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 75401,
+        "realGDPCurrent": 69609.22
+      },
+      "answer": -7.68
+    },
+    {
+      "id": "CAL_L3_0011",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 1.38 currency units per unit on a good, and 749 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 749,
+        "taxRate": 1.38
+      },
+      "answer": 1030.27
+    },
+    {
+      "id": "CAL_L3_0012",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 101.20 last year and 111.25 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 101.2,
+        "cpiCurrent": 111.25
+      },
+      "answer": 9.93
+    },
+    {
+      "id": "CAL_L3_0013",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 2725 thousand people, of whom 212 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 2725,
+        "unemployed": 212
+      },
+      "answer": 7.78
+    },
+    {
+      "id": "CAL_L3_0014",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 84945 million and a real GDP of 41807 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 84945,
+        "realGDP": 41807
+      },
+      "answer": 203.18
+    },
+    {
+      "id": "CAL_L3_0015",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 126.07 and an import price index of 112.46. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 126.07,
+        "importPriceIndex": 112.46
+      },
+      "answer": 112.1
+    },
+    {
+      "id": "CAL_L3_0016",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 99.83 in the base year and 110.21 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 99.83,
+        "currentBasketCost": 110.21
+      },
+      "answer": 110.39
+    },
+    {
+      "id": "CAL_L3_0017",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 87127 million and a real GDP of 108568 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 87127,
+        "realGDP": 108568
+      },
+      "answer": 80.25
+    },
+    {
+      "id": "CAL_L3_0018",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 93 units to 161 units when its price changed from 45.26 to 45.24. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 93,
+        "quantity2": 161,
+        "price1": 45.26,
+        "price2": 45.24
+      },
+      "answer": -1072.75
+    },
+    {
+      "id": "CAL_L3_0019",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 196 units to 107 units when its price changed from 31.36 to 17.89. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 196,
+        "quantity2": 107,
+        "price1": 31.36,
+        "price2": 17.89
+      },
+      "answer": 1.07
+    },
+    {
+      "id": "CAL_L3_0020",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 30487 million and a GDP deflator of 94.72. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 30487,
+        "GDPdeflator": 94.72
+      },
+      "answer": 32186.29
+    },
+    {
+      "id": "CAL_L3_0021",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 113704 million last year and 128581.26 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 113704,
+        "realGDPCurrent": 128581.26
+      },
+      "answer": 13.08
+    },
+    {
+      "id": "CAL_L3_0022",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 84 units to 84 units when its price changed from 13.23 to 23.62. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 84,
+        "quantity2": 84,
+        "price1": 13.23,
+        "price2": 23.62
+      },
+      "answer": 0.0
+    },
+    {
+      "id": "CAL_L3_0023",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 111.86 and an import price index of 123.96. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 111.86,
+        "importPriceIndex": 123.96
+      },
+      "answer": 90.23
+    },
+    {
+      "id": "CAL_L3_0024",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 4827 thousand people, of whom 636 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 4827,
+        "unemployed": 636
+      },
+      "answer": 13.18
+    },
+    {
+      "id": "CAL_L3_0025",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 92.38 last year and 102.66 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 92.38,
+        "cpiCurrent": 102.66
+      },
+      "answer": 11.13
+    },
+    {
+      "id": "CAL_L3_0026",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 77996 million and a real GDP of 160534 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 77996,
+        "realGDP": 160534
+      },
+      "answer": 48.59
+    },
+    {
+      "id": "CAL_L3_0027",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 198730 million and a real GDP of 76443 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 198730,
+        "realGDP": 76443
+      },
+      "answer": 259.97
+    },
+    {
+      "id": "CAL_L3_0028",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 152988 million and a real GDP of 111993 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 152988,
+        "realGDP": 111993
+      },
+      "answer": 136.6
+    },
+    {
+      "id": "CAL_L3_0029",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 51662 million and a real GDP of 135984 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 51662,
+        "realGDP": 135984
+      },
+      "answer": 37.99
+    },
+    {
+      "id": "CAL_L3_0030",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 70433 million and a real GDP of 157519 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 70433,
+        "realGDP": 157519
+      },
+      "answer": 44.71
+    },
+    {
+      "id": "CAL_L3_0031",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 113.83 in the base year and 119.55 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 113.83,
+        "currentBasketCost": 119.55
+      },
+      "answer": 105.02
+    },
+    {
+      "id": "CAL_L3_0032",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 63265 million and a real GDP of 127153 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 63265,
+        "realGDP": 127153
+      },
+      "answer": 49.76
+    },
+    {
+      "id": "CAL_L3_0033",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 100597 million and a real GDP of 110535 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 100597,
+        "realGDP": 110535
+      },
+      "answer": 91.01
+    },
+    {
+      "id": "CAL_L3_0034",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.23. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.23
+      },
+      "answer": 1.3
+    },
+    {
+      "id": "CAL_L3_0035",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.49. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.49
+      },
+      "answer": 1.97
+    },
+    {
+      "id": "CAL_L3_0036",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 69832 million and a GDP deflator of 89.77. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 69832,
+        "GDPdeflator": 89.77
+      },
+      "answer": 77789.78
+    },
+    {
+      "id": "CAL_L3_0037",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 110353 million last year and 126044.95 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 110353,
+        "realGDPCurrent": 126044.95
+      },
+      "answer": 14.22
+    },
+    {
+      "id": "CAL_L3_0038",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 5820 thousand people, of whom 288 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 5820,
+        "unemployed": 288
+      },
+      "answer": 4.95
+    },
+    {
+      "id": "CAL_L3_0039",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 93.96 in the base year and 108.71 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 93.96,
+        "currentBasketCost": 108.71
+      },
+      "answer": 115.7
+    },
+    {
+      "id": "CAL_L3_0040",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 9.15 currency units per unit on a good, and 1470 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1470,
+        "taxRate": 9.15
+      },
+      "answer": 13456.85
+    },
+    {
+      "id": "CAL_L3_0041",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 112.08 and an import price index of 88.83. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 112.08,
+        "importPriceIndex": 88.83
+      },
+      "answer": 126.17
+    },
+    {
+      "id": "CAL_L3_0042",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 97615 million and a GDP deflator of 101.22. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 97615,
+        "GDPdeflator": 101.22
+      },
+      "answer": 96436.71
+    },
+    {
+      "id": "CAL_L3_0043",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 108.64 in the base year and 148.22 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 108.64,
+        "currentBasketCost": 148.22
+      },
+      "answer": 136.44
+    },
+    {
+      "id": "CAL_L3_0044",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 77.78 in the base year and 113.48 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 77.78,
+        "currentBasketCost": 113.48
+      },
+      "answer": 145.9
+    },
+    {
+      "id": "CAL_L3_0045",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.25. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.25
+      },
+      "answer": 1.33
+    },
+    {
+      "id": "CAL_L3_0046",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 54840 million and a GDP deflator of 82.18. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 54840,
+        "GDPdeflator": 82.18
+      },
+      "answer": 66729.15
+    },
+    {
+      "id": "CAL_L3_0047",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 7501 thousand people, of whom 1012 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 7501,
+        "unemployed": 1012
+      },
+      "answer": 13.49
+    },
+    {
+      "id": "CAL_L3_0048",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 120853 million and a real GDP of 126889 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 120853,
+        "realGDP": 126889
+      },
+      "answer": 95.24
+    },
+    {
+      "id": "CAL_L3_0049",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 105.63 and an import price index of 121.77. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 105.63,
+        "importPriceIndex": 121.77
+      },
+      "answer": 86.75
+    },
+    {
+      "id": "CAL_L3_0050",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 148.10 in the base year and 184.72 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 148.1,
+        "currentBasketCost": 184.72
+      },
+      "answer": 124.72
+    },
+    {
+      "id": "CAL_L3_0051",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 65395 million last year and 59660.74 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 65395,
+        "realGDPCurrent": 59660.74
+      },
+      "answer": -8.77
+    },
+    {
+      "id": "CAL_L3_0052",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 120.70 and an import price index of 96.90. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 120.7,
+        "importPriceIndex": 96.9
+      },
+      "answer": 124.56
+    },
+    {
+      "id": "CAL_L3_0053",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 7205 thousand people, of whom 577 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 7205,
+        "unemployed": 577
+      },
+      "answer": 8.01
+    },
+    {
+      "id": "CAL_L3_0054",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 6588 thousand people, of whom 1120 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 6588,
+        "unemployed": 1120
+      },
+      "answer": 17.0
+    },
+    {
+      "id": "CAL_L3_0055",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 161 units to 127 units when its price changed from 30.68 to 36.31. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 161,
+        "quantity2": 127,
+        "price1": 30.68,
+        "price2": 36.31
+      },
+      "answer": -1.4
+    },
+    {
+      "id": "CAL_L3_0056",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 124.62 and an import price index of 81.58. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 124.62,
+        "importPriceIndex": 81.58
+      },
+      "answer": 152.75
+    },
+    {
+      "id": "CAL_L3_0057",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 103.38 last year and 117.50 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 103.38,
+        "cpiCurrent": 117.5
+      },
+      "answer": 13.66
+    },
+    {
+      "id": "CAL_L3_0058",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 106.42 last year and 119.70 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 106.42,
+        "cpiCurrent": 119.7
+      },
+      "answer": 12.48
+    },
+    {
+      "id": "CAL_L3_0059",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.78. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.78
+      },
+      "answer": 4.47
+    },
+    {
+      "id": "CAL_L3_0060",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.28. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.28
+      },
+      "answer": 1.39
+    },
+    {
+      "id": "CAL_L3_0061",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 199 units to 158 units when its price changed from 40.04 to 31.79. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 199,
+        "quantity2": 158,
+        "price1": 40.04,
+        "price2": 31.79
+      },
+      "answer": 1.0
+    },
+    {
+      "id": "CAL_L3_0062",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 47977 million and a GDP deflator of 116.36. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 47977,
+        "GDPdeflator": 116.36
+      },
+      "answer": 41230.7
+    },
+    {
+      "id": "CAL_L3_0063",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 41166 million and a GDP deflator of 84.73. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 41166,
+        "GDPdeflator": 84.73
+      },
+      "answer": 48586.47
+    },
+    {
+      "id": "CAL_L3_0064",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 6202 thousand people, of whom 529 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 6202,
+        "unemployed": 529
+      },
+      "answer": 8.53
+    },
+    {
+      "id": "CAL_L3_0065",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 65626 million last year and 64300.53 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 65626,
+        "realGDPCurrent": 64300.53
+      },
+      "answer": -2.02
+    },
+    {
+      "id": "CAL_L3_0066",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 122184 million and a real GDP of 172624 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 122184,
+        "realGDP": 172624
+      },
+      "answer": 70.78
+    },
+    {
+      "id": "CAL_L3_0067",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 4.11 currency units per unit on a good, and 1810 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1810,
+        "taxRate": 4.11
+      },
+      "answer": 7430.12
+    },
+    {
+      "id": "CAL_L3_0068",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 86.75 in the base year and 112.69 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 86.75,
+        "currentBasketCost": 112.69
+      },
+      "answer": 129.89
+    },
+    {
+      "id": "CAL_L3_0069",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 192033 million and a real GDP of 151679 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 192033,
+        "realGDP": 151679
+      },
+      "answer": 126.6
+    },
+    {
+      "id": "CAL_L3_0070",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 78284 million last year and 92278.89 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 78284,
+        "realGDPCurrent": 92278.89
+      },
+      "answer": 17.88
+    },
+    {
+      "id": "CAL_L3_0071",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 165 units to 145 units when its price changed from 32.77 to 28.42. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 165,
+        "quantity2": 145,
+        "price1": 32.77,
+        "price2": 28.42
+      },
+      "answer": 0.91
+    },
+    {
+      "id": "CAL_L3_0072",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 115.59 last year and 119.40 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 115.59,
+        "cpiCurrent": 119.4
+      },
+      "answer": 3.3
+    },
+    {
+      "id": "CAL_L3_0073",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 93.50 and an import price index of 83.78. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 93.5,
+        "importPriceIndex": 83.78
+      },
+      "answer": 111.6
+    },
+    {
+      "id": "CAL_L3_0074",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 7793 thousand people, of whom 499 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 7793,
+        "unemployed": 499
+      },
+      "answer": 6.4
+    },
+    {
+      "id": "CAL_L3_0075",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 122.73 in the base year and 177.70 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 122.73,
+        "currentBasketCost": 177.7
+      },
+      "answer": 144.79
+    },
+    {
+      "id": "CAL_L3_0076",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 78402 million and a GDP deflator of 117.96. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 78402,
+        "GDPdeflator": 117.96
+      },
+      "answer": 66464.73
+    },
+    {
+      "id": "CAL_L3_0077",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 33848 million and a GDP deflator of 97.27. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 33848,
+        "GDPdeflator": 97.27
+      },
+      "answer": 34797.0
+    },
+    {
+      "id": "CAL_L3_0078",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 57.96 in the base year and 75.62 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 57.96,
+        "currentBasketCost": 75.62
+      },
+      "answer": 130.46
+    },
+    {
+      "id": "CAL_L3_0079",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "CPI",
+      "prompt": "In Country X, the cost of a basket of goods was 80.65 in the base year and 110.64 in the current year. Calculate the CPI.",
+      "data": {
+        "baseBasketCost": 80.65,
+        "currentBasketCost": 110.64
+      },
+      "answer": 137.19
+    },
+    {
+      "id": "CAL_L3_0080",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.52. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.52
+      },
+      "answer": 2.06
+    },
+    {
+      "id": "CAL_L3_0081",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 7867 thousand people, of whom 1280 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 7867,
+        "unemployed": 1280
+      },
+      "answer": 16.27
+    },
+    {
+      "id": "CAL_L3_0082",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 56260 million and a GDP deflator of 95.73. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 56260,
+        "GDPdeflator": 95.73
+      },
+      "answer": 58769.81
+    },
+    {
+      "id": "CAL_L3_0083",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Real GDP",
+      "prompt": "Country X has a nominal GDP of 50007 million and a GDP deflator of 96.36. Calculate the real GDP.",
+      "data": {
+        "nominalGDP": 50007,
+        "GDPdeflator": 96.36
+      },
+      "answer": 51893.7
+    },
+    {
+      "id": "CAL_L3_0084",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 101.92 and an import price index of 87.59. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 101.92,
+        "importPriceIndex": 87.59
+      },
+      "answer": 116.36
+    },
+    {
+      "id": "CAL_L3_0085",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Unemployment rate",
+      "prompt": "Country X has a labour force of 1156 thousand people, of whom 35 thousand are unemployed. Calculate the unemployment rate.",
+      "data": {
+        "labourForce": 1156,
+        "unemployed": 35
+      },
+      "answer": 3.03
+    },
+    {
+      "id": "CAL_L3_0086",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Inflation rate",
+      "prompt": "Country X had a CPI of 110.37 last year and 115.85 this year. Calculate the inflation rate.",
+      "data": {
+        "cpiLast": 110.37,
+        "cpiCurrent": 115.85
+      },
+      "answer": 4.96
+    },
+    {
+      "id": "CAL_L3_0087",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 8.29 currency units per unit on a good, and 1646 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1646,
+        "taxRate": 8.29
+      },
+      "answer": 13644.22
+    },
+    {
+      "id": "CAL_L3_0088",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 130 units to 195 units when its price changed from 33.56 to 24.97. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 130,
+        "quantity2": 195,
+        "price1": 33.56,
+        "price2": 24.97
+      },
+      "answer": -1.36
+    },
+    {
+      "id": "CAL_L3_0089",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.46. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.46
+      },
+      "answer": 1.86
+    },
+    {
+      "id": "CAL_L3_0090",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 78291 million last year and 91137.72 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 78291,
+        "realGDPCurrent": 91137.72
+      },
+      "answer": 16.41
+    },
+    {
+      "id": "CAL_L3_0091",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.51. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.51
+      },
+      "answer": 2.06
+    },
+    {
+      "id": "CAL_L3_0092",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Tax revenue",
+      "prompt": "Country X levies a tax of 6.50 currency units per unit on a good, and 1814 units are sold. Calculate the total tax revenue.",
+      "data": {
+        "quantitySold": 1814,
+        "taxRate": 6.5
+      },
+      "answer": 11784.12
+    },
+    {
+      "id": "CAL_L3_0093",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "GDP deflator",
+      "prompt": "Country X has a nominal GDP of 184258 million and a real GDP of 132034 million. Calculate the GDP deflator.",
+      "data": {
+        "nominalGDP": 184258,
+        "realGDP": 132034
+      },
+      "answer": 139.55
+    },
+    {
+      "id": "CAL_L3_0094",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Economic growth rate",
+      "prompt": "The real GDP of Country X was 114047 million last year and 136060.73 million this year. Calculate the economic growth rate.",
+      "data": {
+        "realGDPPrevious": 114047,
+        "realGDPCurrent": 136060.73
+      },
+      "answer": 19.3
+    },
+    {
+      "id": "CAL_L3_0095",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 87.43 and an import price index of 96.78. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 87.43,
+        "importPriceIndex": 96.78
+      },
+      "answer": 90.34
+    },
+    {
+      "id": "CAL_L3_0096",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 93.04 and an import price index of 86.34. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 93.04,
+        "importPriceIndex": 86.34
+      },
+      "answer": 107.76
+    },
+    {
+      "id": "CAL_L3_0097",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.80. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.8
+      },
+      "answer": 4.94
+    },
+    {
+      "id": "CAL_L3_0098",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Multiplier",
+      "prompt": "Country X has a marginal propensity to consume (MPC) of 0.76. Calculate the simple Keynesian multiplier.",
+      "data": {
+        "mpc": 0.76
+      },
+      "answer": 4.13
+    },
+    {
+      "id": "CAL_L3_0099",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Price elasticity of demand",
+      "prompt": "The quantity demanded for a good decreased from 119 units to 126 units when its price changed from 29.54 to 26.96. Calculate the price elasticity of demand using the midpoint formula.",
+      "data": {
+        "quantity1": 119,
+        "quantity2": 126,
+        "price1": 29.54,
+        "price2": 26.96
+      },
+      "answer": -0.63
+    },
+    {
+      "id": "CAL_L3_0100",
+      "mode": "calculation",
+      "level": 3,
+      "topic": "Terms of trade",
+      "prompt": "Country X has an export price index of 80.34 and an import price index of 86.15. Calculate the terms of trade index.",
+      "data": {
+        "exportPriceIndex": 80.34,
+        "importPriceIndex": 86.15
+      },
+      "answer": 93.26
+    }
+  ],
+  "essay": [
+    {
+      "id": "E1001",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Analyse the causes of annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1002",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1003",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Calculate the effectiveness of government policies in addressing annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1004",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Compare how annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1005",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1006",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Define the causes of annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1007",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1008",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Determine the effectiveness of government policies in addressing annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1009",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Discuss how annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1010",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Inflation",
+      "prompt": "Distinguish to what extent alternative policies could have better managed annual inflation above 200% due to chronic fiscal deficits, currency devaluation and monetary expansion under President Javier Milei in Argentina in 2023.",
+      "keywords": [
+        "Argentina",
+        "inflation",
+        "devaluation",
+        "fiscal deficit",
+        "monetary policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Argentina in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1011",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Analyse the causes of sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1012",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1013",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Calculate the effectiveness of government policies in addressing sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1014",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Compare how sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1015",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1016",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Define the causes of sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1017",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1018",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Determine the effectiveness of government policies in addressing sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1019",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Discuss how sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1020",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Exchange Rates",
+      "prompt": "Distinguish to what extent alternative policies could have better managed sharp depreciation of the lira after the central bank cut interest rates despite inflation around 80% in Turkey in 2022.",
+      "keywords": [
+        "Turkey",
+        "lira",
+        "depreciation",
+        "interest rate",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of Turkey in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1021",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Analyse the causes of sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1022",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1023",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Calculate the effectiveness of government policies in addressing sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1024",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Compare how sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1025",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1026",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Define the causes of sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1027",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1028",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Determine the effectiveness of government policies in addressing sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1029",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Discuss how sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1030",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "Development \u2013 Debt Crisis",
+      "prompt": "Distinguish to what extent alternative policies could have better managed sovereign debt default and shortages of foreign currency leading to fuel and medicine shortages and social unrest in Sri Lanka in 2022.",
+      "keywords": [
+        "Sri Lanka",
+        "debt",
+        "default",
+        "foreign reserves",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Sri Lanka in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1031",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Analyse the causes of removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1032",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1033",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Calculate the effectiveness of government policies in addressing removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1034",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Compare how removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1035",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1036",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Define the causes of removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1037",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1038",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Determine the effectiveness of government policies in addressing removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1039",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Discuss how removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1040",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Distinguish to what extent alternative policies could have better managed removal of petrol subsidies causing fuel prices to triple and triggering protests but aiming to free fiscal space in Nigeria in 2023.",
+      "keywords": [
+        "Nigeria",
+        "subsidy removal",
+        "fuel prices",
+        "inflation",
+        "fiscal policy"
+      ],
+      "solutionOutline": [
+        "Outline the background of Nigeria in 2023 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1041",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Analyse the causes of government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1042",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1043",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Calculate the effectiveness of government policies in addressing government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1044",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Compare how government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1045",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1046",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Define the causes of government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1047",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1048",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Determine the effectiveness of government policies in addressing government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1049",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Discuss how government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1050",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Price Controls",
+      "prompt": "Distinguish to what extent alternative policies could have better managed government-imposed cap on household energy bills amid soaring wholesale gas prices due to the Russia-Ukraine war in United Kingdom in 2022.",
+      "keywords": [
+        "UK",
+        "energy price cap",
+        "price control",
+        "gas prices",
+        "inflation"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1051",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Analyse the causes of passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1052",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1053",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Calculate the effectiveness of government policies in addressing passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1054",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Compare how passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1055",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1056",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Define the causes of passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1057",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1058",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Determine the effectiveness of government policies in addressing passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1059",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Discuss how passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1060",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Fiscal Policy",
+      "prompt": "Distinguish to what extent alternative policies could have better managed passage of the Inflation Reduction Act with $369 billion in climate and energy investments aimed at curbing inflation and promoting green growth in United States in 2022.",
+      "keywords": [
+        "United States",
+        "Inflation Reduction Act",
+        "fiscal policy",
+        "climate",
+        "investment"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1061",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Analyse the causes of strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1062",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1063",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Calculate the effectiveness of government policies in addressing strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1064",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Compare how strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1065",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1066",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Define the causes of strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1067",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1068",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Determine the effectiveness of government policies in addressing strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1069",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Discuss how strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1070",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Trade and Supply Chains",
+      "prompt": "Distinguish to what extent alternative policies could have better managed strict zero-COVID lockdowns causing factory shutdowns and disrupting global supply chains in China in 2022.",
+      "keywords": [
+        "China",
+        "zero-COVID",
+        "lockdowns",
+        "supply chain",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of China in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1071",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Analyse the causes of Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1072",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1073",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Calculate the effectiveness of government policies in addressing Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1074",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Compare how Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1075",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1076",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Define the causes of Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1077",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1078",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Determine the effectiveness of government policies in addressing Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1079",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Discuss how Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1080",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Commodity Markets",
+      "prompt": "Distinguish to what extent alternative policies could have better managed Russia\u2019s invasion of Ukraine leading to global energy shortages and food price spikes, particularly affecting Europe and developing nations in Global in 2022.",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "energy crisis",
+        "food prices",
+        "global"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1081",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Analyse the causes of escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1082",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1083",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Calculate the effectiveness of government policies in addressing escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1084",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Compare how escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1085",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1086",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Define the causes of escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1087",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1088",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Determine the effectiveness of government policies in addressing escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1089",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Discuss how escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1090",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Trade Protection",
+      "prompt": "Distinguish to what extent alternative policies could have better managed escalating tariffs imposed by the US and China on each other\u2019s goods in a trade war, affecting global supply chains in United States and China in 2018.",
+      "keywords": [
+        "trade war",
+        "tariffs",
+        "US",
+        "China",
+        "protectionism"
+      ],
+      "solutionOutline": [
+        "Outline the background of United States and China in 2018 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1091",
+      "level": 1,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Analyse the causes of the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1092",
+      "level": 1,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1093",
+      "level": 1,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Calculate the effectiveness of government policies in addressing the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1094",
+      "level": 1,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Compare how the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1095",
+      "level": 1,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1096",
+      "level": 1,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Define the causes of the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1097",
+      "level": 1,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1098",
+      "level": 1,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Determine the effectiveness of government policies in addressing the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1099",
+      "level": 1,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Discuss how the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1100",
+      "level": 1,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Crisis Response",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the COVID\u201119 pandemic causing unprecedented economic shutdowns, fiscal stimulus packages and monetary easing worldwide in Global in 2020.",
+      "keywords": [
+        "COVID\u201119",
+        "stimulus",
+        "lockdowns",
+        "recession",
+        "monetary easing"
+      ],
+      "solutionOutline": [
+        "Outline the background of Global in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1101",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Analyse the causes of the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1102",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1103",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Calculate the effectiveness of government policies in addressing the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1104",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Compare how the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1105",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1106",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Define the causes of the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1107",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1108",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Determine the effectiveness of government policies in addressing the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1109",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Discuss how the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1110",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Trade Agreements",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the formal exit from the EU and the introduction of new trade barriers and customs checks under the Trade and Cooperation Agreement in United Kingdom in 2020.",
+      "keywords": [
+        "Brexit",
+        "trade barriers",
+        "EU",
+        "customs",
+        "labour mobility"
+      ],
+      "solutionOutline": [
+        "Outline the background of United Kingdom in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1111",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Analyse the causes of the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1112",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1113",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Calculate the effectiveness of government policies in addressing the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1114",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Compare how the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1115",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1116",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Define the causes of the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1117",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1118",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Determine the effectiveness of government policies in addressing the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1119",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Discuss how the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1120",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Monetary Policy",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the launch of Abenomics combining monetary easing, fiscal stimulus and structural reforms to combat deflation in Japan in 2013.",
+      "keywords": [
+        "Japan",
+        "Abenomics",
+        "monetary easing",
+        "deflation",
+        "structural reforms"
+      ],
+      "solutionOutline": [
+        "Outline the background of Japan in 2013 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1121",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Analyse the causes of the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1122",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1123",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Calculate the effectiveness of government policies in addressing the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1124",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Compare how the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1125",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1126",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Define the causes of the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1127",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1128",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Determine the effectiveness of government policies in addressing the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1129",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Discuss how the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1130",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Money and Banking",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the sudden demonetisation of high-value banknotes aiming to curb black money and promote digital payments in India in 2016.",
+      "keywords": [
+        "India",
+        "demonetisation",
+        "black money",
+        "digital payments",
+        "cashless"
+      ],
+      "solutionOutline": [
+        "Outline the background of India in 2016 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1131",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Analyse the causes of hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1132",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1133",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Calculate the effectiveness of government policies in addressing hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1134",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Compare how hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1135",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1136",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Define the causes of hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1137",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1138",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Determine the effectiveness of government policies in addressing hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1139",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Discuss how hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1140",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Macroeconomics \u2013 Hyperinflation",
+      "prompt": "Distinguish to what extent alternative policies could have better managed hyperinflation exceeding 1,000,000% due to monetary financing of deficits and collapse of oil revenues in Venezuela in 2017.",
+      "keywords": [
+        "Venezuela",
+        "hyperinflation",
+        "oil revenues",
+        "money supply",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Venezuela in 2017 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1141",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Analyse the causes of the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1142",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1143",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Calculate the effectiveness of government policies in addressing the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1144",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Compare how the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1145",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1146",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Define the causes of the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1147",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1148",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Determine the effectiveness of government policies in addressing the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1149",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Discuss how the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1150",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Sovereign Debt",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the sovereign debt crisis leading to bailout packages and austerity measures imposed by the EU and IMF in Greece in 2010.",
+      "keywords": [
+        "Greece",
+        "debt crisis",
+        "austerity",
+        "bailout",
+        "IMF"
+      ],
+      "solutionOutline": [
+        "Outline the background of Greece in 2010 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1151",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Analyse the causes of rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1152",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1153",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Calculate the effectiveness of government policies in addressing rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1154",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Compare how rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1155",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1156",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Define the causes of rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1157",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1158",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Determine the effectiveness of government policies in addressing rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1159",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Discuss how rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1160",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Development \u2013 Demographics",
+      "prompt": "Distinguish to what extent alternative policies could have better managed rapidly aging population and low birth rates causing concerns over labour shortages and pension sustainability in South Korea in 2020.",
+      "keywords": [
+        "South Korea",
+        "aging population",
+        "birth rate",
+        "labour shortage",
+        "pensions"
+      ],
+      "solutionOutline": [
+        "Outline the background of South Korea in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1161",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Analyse the causes of the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1162",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1163",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Calculate the effectiveness of government policies in addressing the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1164",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Compare how the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1165",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1166",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Define the causes of the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1167",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1168",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Determine the effectiveness of government policies in addressing the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1169",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Discuss how the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1170",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Microeconomics \u2013 Labour Market",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the increase of the statutory minimum wage from \u20ac9.60 to \u20ac12 per hour and its potential impact on employment and consumer spending in Germany in 2022.",
+      "keywords": [
+        "Germany",
+        "minimum wage",
+        "employment",
+        "wages",
+        "consumer spending"
+      ],
+      "solutionOutline": [
+        "Outline the background of Germany in 2022 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1171",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Analyse the causes of the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1172",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1173",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Calculate the effectiveness of government policies in addressing the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1174",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Compare how the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1175",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1176",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Define the causes of the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1177",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1178",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Determine the effectiveness of government policies in addressing the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1179",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Discuss how the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1180",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Development \u2013 Infrastructure",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the construction of the Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile and disputes with downstream countries over water rights in Ethiopia in 2020.",
+      "keywords": [
+        "Ethiopia",
+        "GERD",
+        "water rights",
+        "Egypt",
+        "hydropower"
+      ],
+      "solutionOutline": [
+        "Outline the background of Ethiopia in 2020 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1181",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Analyse the causes of the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1182",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1183",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Calculate the effectiveness of government policies in addressing the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1184",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Compare how the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1185",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1186",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Define the causes of the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1187",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1188",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Determine the effectiveness of government policies in addressing the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1189",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Discuss how the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1190",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "International \u2013 Exchange Rate Regimes",
+      "prompt": "Distinguish to what extent alternative policies could have better managed the Swiss National Bank\u2019s decision to abandon the Swiss franc\u2019s cap against the euro, causing a surge in the franc\u2019s value in Switzerland in 2015.",
+      "keywords": [
+        "Switzerland",
+        "franc",
+        "exchange rate",
+        "currency peg",
+        "exports"
+      ],
+      "solutionOutline": [
+        "Outline the background of Switzerland in 2015 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1191",
+      "level": 2,
+      "commandTerm": "Analyse",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Analyse the causes of expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1192",
+      "level": 2,
+      "commandTerm": "Apply",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Apply the short\u2011term and long\u2011term economic consequences of expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1193",
+      "level": 2,
+      "commandTerm": "Calculate",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Calculate the effectiveness of government policies in addressing expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1194",
+      "level": 2,
+      "commandTerm": "Compare",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Compare how expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1195",
+      "level": 2,
+      "commandTerm": "Compare and contrast",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Compare and contrast to what extent alternative policies could have better managed expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1196",
+      "level": 2,
+      "commandTerm": "Define",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Define the causes of expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1197",
+      "level": 2,
+      "commandTerm": "Describe",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Describe the short\u2011term and long\u2011term economic consequences of expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1198",
+      "level": 2,
+      "commandTerm": "Determine",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Determine the effectiveness of government policies in addressing expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1199",
+      "level": 2,
+      "commandTerm": "Discuss",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Discuss how expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019 affected different stakeholders such as consumers, firms and the government.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    },
+    {
+      "id": "E1200",
+      "level": 2,
+      "commandTerm": "Distinguish",
+      "topic": "Development \u2013 Microfinance",
+      "prompt": "Distinguish to what extent alternative policies could have better managed expansion of microfinance institutions such as Banco Compartamos to improve access to credit for low-income entrepreneurs in Mexico in 2019.",
+      "keywords": [
+        "Mexico",
+        "microfinance",
+        "financial inclusion",
+        "small business",
+        "poverty"
+      ],
+      "solutionOutline": [
+        "Outline the background of Mexico in 2019 and the economic situation.",
+        "Define key terms used in the question.",
+        "Use appropriate diagrams if relevant (e.g., AD/AS, supply and demand, or Laffer curve).",
+        "Analyse causes and effects using economic theory.",
+        "Evaluate policy effectiveness, considering different stakeholders and alternative options."
+      ]
+    }
+  ],
+  "case": [
+    {
+      "id": "CS1001",
+      "topic": "Macroeconomics \u2013 Hyperinflation in Argentina",
+      "level": 2,
+      "context": "Argentina\u2019s 2023 Hyperinflation",
+      "backgroundText": "In 2023, Argentina grappled with a severe macroeconomic crisis. Annual inflation exceeded 200%, the highest since the early 1990s. Years of chronic fiscal deficits, money printing, and loss of confidence in the peso culminated in runaway price increases. The newly elected government under Javier Milei inherited a rapidly deteriorating economy. To stabilise the situation, the administration implemented austerity measures, devalued the peso, and sought support from the International Monetary Fund. These policies aimed to reduce the fiscal deficit and restore credibility, but they also risked deepening recession and social unrest. Many Argentines saw their real incomes erode as wages lagged behind soaring prices. Poverty rates climbed above 40%. The central bank hiked interest rates above 130% to stem capital flight, while the government cut energy subsidies to reduce spending. Businesses struggled to set prices and plan investment amidst volatile exchange rates. Meanwhile, foreign investors remained cautious until reforms showed results.",
+      "table": [
+        {
+          "Year": 2022,
+          "Inflation": 94.8,
+          "ExchangeRate": 178
+        },
+        {
+          "Year": 2023,
+          "Inflation": 211.4,
+          "ExchangeRate": 350
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Identify two factors that contributed to Argentina\u2019s hyperinflation in 2023.",
+          "answer": "Contributing factors include persistent fiscal deficits financed by money creation and sharp devaluations of the peso that increased import prices."
+        },
+        {
+          "prompt": "Suggest one monetary or fiscal policy the Argentine government could implement to restore price stability and discuss a potential drawback.",
+          "answer": "A tighter monetary policy through higher interest rates could curb inflation but may also suppress investment and output, deepening the recession."
+        },
+        {
+          "prompt": "Explain how hyperinflation can affect income distribution in Argentina.",
+          "answer": "Hyperinflation erodes the purchasing power of fixed incomes and savings, disproportionately hurting low\u2011income households, while those with assets indexed to inflation may benefit."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Uses data and context correctly to identify causes and policies.",
+        "application": "Applies inflation and monetary theory to the case.",
+        "analysis": "Analyses distributional impacts and policy trade\u2011offs.",
+        "evaluation": "Evaluates the pros and cons of proposed policies."
+      }
+    },
+    {
+      "id": "CS1002",
+      "topic": "International \u2013 Exchange Rate Policy in Turkey",
+      "level": 2,
+      "context": "Turkey\u2019s 2022 Lira Crisis",
+      "backgroundText": "In 2022, Turkey experienced a dramatic depreciation of its currency, the lira. Despite inflation climbing towards 80%, the central bank pursued unorthodox monetary policy by cutting interest rates under pressure from President Recep Tayyip Erdo\u011fan, who argued that lower rates would spur growth and exports. The lira lost more than half its value against the US dollar within a year, raising the cost of imported goods and fuelling further inflation. Households saw their purchasing power erode as food and energy prices surged. Many Turks sought refuge in foreign currencies and gold to protect their savings. To stabilise the exchange rate, the government introduced a deposit protection scheme that compensated savers for lira depreciation and sold billions of dollars in reserves. While these measures slowed the lira\u2019s fall, they also depleted foreign reserves and increased fiscal risk. Meanwhile, exporters enjoyed a temporary competitiveness boost from the weaker lira, but rising input costs and uncertainty offset these gains. The crisis highlighted the trade\u2011offs between growth, inflation control, and currency stability.",
+      "table": [
+        {
+          "Month": "Jan 2022",
+          "InflationRate": 48,
+          "InterestRate": 14
+        },
+        {
+          "Month": "Dec 2022",
+          "InflationRate": 84,
+          "InterestRate": 9
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Describe one benefit and one cost of a depreciating currency for Turkey\u2019s economy.",
+          "answer": "A weaker lira can boost exports by making them cheaper abroad (benefit) but increases import costs, fuelling inflation (cost)."
+        },
+        {
+          "prompt": "Explain how cutting interest rates contributed to the lira\u2019s depreciation.",
+          "answer": "Lower interest rates reduce returns on lira\u2011denominated assets, leading investors to sell the currency, increasing supply in the foreign exchange market and lowering its value."
+        },
+        {
+          "prompt": "Evaluate the effectiveness of Turkey\u2019s deposit protection scheme in stabilising the currency.",
+          "answer": "The scheme temporarily slowed depreciation by incentivising savers to hold lira, but it depleted reserves and created contingent liabilities for the government."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Correctly distinguishes benefits and costs of currency changes.",
+        "application": "Applies exchange rate theory to Turkey\u2019s case.",
+        "analysis": "Analyses policy mechanisms and investor behaviour.",
+        "evaluation": "Critically assesses policy sustainability and trade\u2011offs."
+      }
+    },
+    {
+      "id": "CS1003",
+      "topic": "Development \u2013 Sovereign Debt and Crisis in Sri Lanka",
+      "level": 2,
+      "context": "Sri Lanka\u2019s 2022 Debt Default",
+      "backgroundText": "Sri Lanka fell into a deep economic crisis in 2022. Years of heavy borrowing for infrastructure projects, combined with tax cuts and the collapse of tourism during the pandemic, left the government with unsustainable debt. Foreign reserves dwindled to critical levels. In April 2022, Sri Lanka defaulted on its foreign debt for the first time. The lack of foreign currency led to shortages of fuel, medicine and essential goods. Long queues formed at petrol stations, and power cuts became frequent. Inflation surged above 50%. Public anger over the government\u2019s mismanagement sparked mass protests that toppled President Gotabaya Rajapaksa. The new administration sought an IMF bailout in exchange for reforms such as raising taxes, cutting subsidies and restructuring state\u2011owned enterprises. The crisis underscored the risks of excessive borrowing and populist tax policies. It also highlighted the importance of a diversified economy less reliant on tourism and tea exports.",
+      "table": [
+        {
+          "Year": 2020,
+          "TourismRevenue": 4000,
+          "ForeignReserves": 7800
+        },
+        {
+          "Year": 2021,
+          "TourismRevenue": 2500,
+          "ForeignReserves": 3000
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Identify two structural weaknesses that made Sri Lanka vulnerable to the crisis.",
+          "answer": "Heavy reliance on external borrowing for infrastructure and dependence on tourism revenues left Sri Lanka exposed when capital flows dried up and tourism collapsed."
+        },
+        {
+          "prompt": "Discuss one advantage and one disadvantage of seeking an IMF bailout.",
+          "answer": "An IMF bailout provides emergency financing and policy guidance (advantage), but often requires austerity measures that can worsen short\u2011term economic hardship (disadvantage)."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Identifies structural weaknesses accurately.",
+        "application": "Applies crisis and debt theories to the case.",
+        "analysis": "Explains pros and cons of IMF support.",
+        "evaluation": "Evaluates longer\u2011term implications for development."
+      }
+    },
+    {
+      "id": "CS1004",
+      "topic": "Macroeconomics \u2013 Subsidy Removal in Nigeria",
+      "level": 1,
+      "context": "Nigeria\u2019s 2023 Fuel Subsidy Removal",
+      "backgroundText": "Nigeria has long subsidised petrol prices, making fuel artificially cheap. However, the subsidy has strained public finances, costing billions of dollars annually and contributing to fiscal deficits. In May 2023, the newly elected government abruptly removed the subsidy. The price of petrol more than tripled overnight, rising from about 200 naira per litre to over 600 naira. Transportation and food costs increased rapidly, pushing inflation higher and reducing real incomes for many Nigerians. Protesters took to the streets, and labour unions called for strikes. The government argued that removing the subsidy would free resources for investment in infrastructure and social programmes. It also aimed to curb smuggling of subsidised fuel to neighbouring countries. To ease the transition, authorities pledged to provide cash transfers to vulnerable households and to invest in public transport. The policy sparked debate about the best way to reform subsidies while protecting the poor and maintaining macroeconomic stability.",
+      "table": [
+        {
+          "Month": "April 2023",
+          "PetrolPriceNaira": 185,
+          "SubsidyCostUSDbn": 5
+        },
+        {
+          "Month": "June 2023",
+          "PetrolPriceNaira": 600,
+          "SubsidyCostUSDbn": 0
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Explain why fuel subsidies can lead to fiscal deficits and market distortions.",
+          "answer": "Subsidies lower prices below market equilibrium, increasing consumption and government spending, which can create deficits and encourage smuggling and overuse."
+        },
+        {
+          "prompt": "Suggest one policy to mitigate the impact of subsidy removal on low\u2011income households and justify your answer.",
+          "answer": "Targeted cash transfers to low\u2011income households can help offset higher fuel costs while avoiding blanket subsidies that benefit rich and poor alike."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Explains subsidy effects accurately.",
+        "application": "Applies price controls and fiscal theory to Nigeria\u2019s case.",
+        "analysis": "Analyses socio\u2011economic impacts of subsidy removal.",
+        "evaluation": "Justifies the choice of compensatory policy."
+      }
+    },
+    {
+      "id": "CS1005",
+      "topic": "International \u2013 Energy Crisis in Europe",
+      "level": 1,
+      "context": "Europe\u2019s 2022 Energy Crisis",
+      "backgroundText": "Following Russia\u2019s invasion of Ukraine in February 2022, European countries faced an acute energy crisis. Natural gas supplies from Russia plummeted as pipelines were shut down or sabotaged. Gas prices in Europe skyrocketed to more than ten times their long\u2011term average. Electricity prices followed suit. Countries like Germany, Italy and Hungary scrambled to secure alternative supplies, importing liquefied natural gas (LNG) from the United States, Qatar and others. Governments introduced price caps and subsidies to shield households and businesses from soaring bills. The EU agreed to joint gas procurement and set targets to fill storage. High energy costs pushed inflation to record levels and threatened industrial competitiveness. Some energy\u2011intensive factories curtailed production or shut down. At the same time, the crisis accelerated investments in renewables and energy efficiency. Households cut consumption by lowering thermostats and reducing use. The crisis underscored Europe\u2019s dependency on Russian gas and the need for a transition to more secure and sustainable energy sources.",
+      "table": [
+        {
+          "Country": "Germany",
+          "GasPriceEuroMWh": 20,
+          "Year": 2020
+        },
+        {
+          "Country": "Germany",
+          "GasPriceEuroMWh": 200,
+          "Year": 2022
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Identify one short\u2011term measure European governments took to manage the energy crisis and one long\u2011term strategy.",
+          "answer": "Short\u2011term measures included price caps and subsidies; long\u2011term strategies involved accelerating investment in renewable energy and diversifying gas suppliers."
+        },
+        {
+          "prompt": "Analyse how the energy crisis affected inflation and production in Europe.",
+          "answer": "Energy price spikes increased firms\u2019 costs and household bills, driving inflation higher and forcing some manufacturers to cut output."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Identifies appropriate short\u2011term and long\u2011term measures.",
+        "application": "Applies supply shock theory to energy markets.",
+        "analysis": "Analyses macroeconomic impacts of energy prices.",
+        "evaluation": "Evaluates policy responses and their sustainability."
+      }
+    },
+    {
+      "id": "CS1006",
+      "topic": "International \u2013 Supply Chain Disruptions in China",
+      "level": 1,
+      "context": "China\u2019s 2022 Zero\u2011COVID Policy",
+      "backgroundText": "In 2022, China continued to enforce a strict zero\u2011COVID policy aimed at eradicating the virus. Cities like Shanghai and Shenzhen were placed under lockdown for weeks after outbreaks. Factories and ports operated at reduced capacity or were temporarily shut down. These measures disrupted global supply chains. Lead times for electronics, garments and machinery lengthened as shipments were delayed. Multinational companies re\u2011evaluated their reliance on Chinese manufacturing and considered diversifying production to other countries. China\u2019s domestic economy also slowed. Consumption weakened as residents were confined to their homes. Youth unemployment rose to record levels. Although the government introduced stimulus measures and infrastructure spending, the uncertainty around lockdowns dampened private investment. In late 2022, China began to relax restrictions amid mounting economic costs and social discontent, raising hopes for a rebound in 2023.",
+      "table": [
+        {
+          "Month": "March 2022",
+          "PMI": 48,
+          "YouthUnemploymentPercent": 16
+        },
+        {
+          "Month": "August 2022",
+          "PMI": 45,
+          "YouthUnemploymentPercent": 19
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Explain how China\u2019s zero\u2011COVID policy affected global supply chains.",
+          "answer": "Lockdowns halted factory output and port operations, delaying shipments and increasing delivery times for goods worldwide."
+        },
+        {
+          "prompt": "Discuss one policy that multinational firms might adopt in response to such disruptions.",
+          "answer": "Firms might diversify their supply chains by relocating some production to other countries to reduce dependence on a single source."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Explains supply chain disruptions clearly.",
+        "application": "Applies production and trade theories to the case.",
+        "analysis": "Analyses firm responses and diversification strategies.",
+        "evaluation": "Evaluates resilience versus efficiency in global supply chains."
+      }
+    },
+    {
+      "id": "CS1007",
+      "topic": "Microeconomics \u2013 Labour Market Policy in Germany",
+      "level": 1,
+      "context": "Germany\u2019s 2022 Minimum Wage Increase",
+      "backgroundText": "On 1 October 2022, Germany raised its statutory minimum wage from \u20ac10.45 to \u20ac12 per hour, a 15% increase. The policy aimed to improve living standards for low\u2011income workers and reduce in\u2011work poverty. It followed earlier increases in 2019 and 2021. Supporters argued that higher wages would boost consumption and productivity by motivating workers. Critics warned that small businesses might struggle to absorb higher labour costs, leading to reduced hiring or higher prices. Early data showed limited employment effects, but it was too soon to assess long\u2011term impacts. The increase came amid high inflation driven by energy costs. Real wage growth remained modest, and unions demanded further rises. The government considered targeted tax relief to support small firms. The policy sparked debate about the balance between social protection and labour market flexibility.",
+      "table": [
+        {
+          "Year": 2021,
+          "MinimumWageEuro": 9.6,
+          "UnemploymentRate": 3.6
+        },
+        {
+          "Year": 2023,
+          "MinimumWageEuro": 12.0,
+          "UnemploymentRate": 3.5
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Identify one intended benefit of raising the minimum wage and one potential downside.",
+          "answer": "Intended benefit: reduce in\u2011work poverty and increase consumption; downside: raise labour costs for firms, possibly reducing hiring."
+        },
+        {
+          "prompt": "Using labour market diagrams, explain how a binding minimum wage can create unemployment.",
+          "answer": "A minimum wage set above equilibrium raises the wage but reduces labour demanded while increasing labour supplied, creating excess supply (unemployment)."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Accurately identifies benefits and costs.",
+        "application": "Applies labour market theory and diagrams.",
+        "analysis": "Analyses potential macro and micro effects.",
+        "evaluation": "Evaluates policy trade\u2011offs between equity and efficiency."
+      }
+    },
+    {
+      "id": "CS1008",
+      "topic": "Macroeconomics \u2013 Demonetisation in India",
+      "level": 1,
+      "context": "India\u2019s 2016 Demonetisation",
+      "backgroundText": "In November 2016, India\u2019s government announced the immediate withdrawal of 500 and 1,000 rupee notes, which comprised 86% of currency in circulation. The aim was to combat corruption, black money and counterfeit notes and to encourage digital payments. Millions of people queued outside banks to exchange old notes, causing widespread disruption. Cash\u2011dependent small businesses and informal sector workers faced liquidity shortages. Economic growth slowed temporarily. Digital payment platforms such as Paytm saw rapid adoption. Supporters claimed the move widened the tax base and promoted financial inclusion. Critics argued it was poorly planned and disproportionately hurt the poor. The long\u2011term impact on corruption remains debated.",
+      "table": [
+        {
+          "Quarter": "Q4 2016",
+          "GDPGrowthPercent": 6.7
+        },
+        {
+          "Quarter": "Q1 2017",
+          "GDPGrowthPercent": 5.7
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Describe two objectives of India\u2019s demonetisation policy.",
+          "answer": "Objectives included reducing black money and counterfeit currency and promoting a shift toward digital payments."
+        },
+        {
+          "prompt": "Explain one short\u2011term economic cost of demonetisation for small businesses.",
+          "answer": "Many small firms relying on cash sales faced liquidity shortages, leading to lower output and job losses."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "States objectives and costs accurately.",
+        "application": "Applies money and banking concepts.",
+        "analysis": "Analyses effects on informal sector and digital adoption.",
+        "evaluation": "Evaluates policy effectiveness against its goals."
+      }
+    },
+    {
+      "id": "CS1009",
+      "topic": "Development \u2013 Microfinance in Mexico",
+      "level": 1,
+      "context": "Microfinance Expansion in Mexico",
+      "backgroundText": "Microfinance has become a significant tool for poverty alleviation in Mexico. In 2019, institutions like Banco Compartamos and Grameen Mexico expanded their outreach to rural and urban poor. These lenders offer small loans, savings accounts and insurance products to individuals who lack access to traditional banking. By 2019, Mexico had over 7 million microcredit clients. Many borrowers are women running small businesses such as grocery shops and craft workshops. Microfinance is credited with empowering women, increasing household consumption and smoothing income fluctuations. However, critics argue that high interest rates (often above 50%) can trap borrowers in cycles of debt. There are concerns about over\u2011lending and aggressive collection practices. Policymakers are debating regulation to protect consumers while preserving access to credit.",
+      "table": [
+        {
+          "Year": 2018,
+          "MicrocreditClientsMn": 6.1,
+          "AverageInterestRatePercent": 48
+        },
+        {
+          "Year": 2019,
+          "MicrocreditClientsMn": 7.3,
+          "AverageInterestRatePercent": 46
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Identify two positive outcomes associated with microfinance in Mexico.",
+          "answer": "Positive outcomes include increased access to credit for the poor and empowerment of women entrepreneurs."
+        },
+        {
+          "prompt": "Discuss one potential risk of widespread microfinance expansion.",
+          "answer": "High interest rates and over\u2011borrowing can lead to debt traps for vulnerable households."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Correctly identifies benefits and risks.",
+        "application": "Applies development finance theory.",
+        "analysis": "Analyses microcredit\u2019s impact on poverty and women.",
+        "evaluation": "Evaluates need for regulation and alternative models."
+      }
+    },
+    {
+      "id": "CS1010",
+      "topic": "Development \u2013 Diversification Strategy in Saudi Arabia",
+      "level": 1,
+      "context": "Saudi Arabia\u2019s Vision 2030",
+      "backgroundText": "Saudi Arabia\u2019s Vision 2030, launched in 2016, is an ambitious plan to diversify the economy away from oil dependence. The strategy includes developing sectors such as tourism, entertainment, renewable energy and technology. The government created the Public Investment Fund (PIF) to finance mega\u2011projects like NEOM, a planned futuristic city, and invested in global companies. The programme also aims to increase women\u2019s labour force participation, improve education and attract foreign investment. To fund these initiatives, the state partially privatised Saudi Aramco and introduced new taxes like VAT. Despite reforms, challenges remain: oil revenues still fund much of the budget, and youth unemployment is high. The Covid\u201119 pandemic and fluctuations in oil prices have complicated diversification efforts.",
+      "table": [
+        {
+          "Year": 2015,
+          "OilRevenuePercentOfBudget": 80
+        },
+        {
+          "Year": 2023,
+          "OilRevenuePercentOfBudget": 60
+        }
+      ],
+      "subQuestions": [
+        {
+          "prompt": "Explain why Saudi Arabia wants to diversify its economy away from oil.",
+          "answer": "Dependence on oil revenue is risky due to price volatility and the global transition towards renewable energy, so diversification seeks sustainable income sources."
+        },
+        {
+          "prompt": "Evaluate one challenge Saudi Arabia faces in implementing Vision 2030.",
+          "answer": "One challenge is creating enough private sector jobs for a young population while reducing reliance on public sector employment."
+        }
+      ],
+      "markingCriteria": {
+        "accuracy": "Explains diversification motives and challenges correctly.",
+        "application": "Applies development and diversification theories.",
+        "analysis": "Analyses resource dependence and structural change.",
+        "evaluation": "Evaluates feasibility and socio\u2011economic implications."
+      }
+    }
+  ],
+  "flash": [
+    {
+      "id": "FLC_L1_0001",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L1_0002",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L1_0003",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L1_0004",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L1_0005",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0006",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0007",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L1_0008",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L1_0009",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L1_0010",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0011",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L1_0012",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L1_0013",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L1_0014",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L1_0015",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L1_0016",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L1_0017",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L1_0018",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0019",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L1_0020",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L1_0021",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L1_0022",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L1_0023",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L1_0024",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L1_0025",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L1_0026",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L1_0027",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L1_0028",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L1_0029",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L1_0030",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0031",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0032",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L1_0033",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L1_0034",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L1_0035",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L1_0036",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L1_0037",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L1_0038",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L1_0039",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L1_0040",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L1_0041",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0042",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L1_0043",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0044",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L1_0045",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0046",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L1_0047",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L1_0048",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L1_0049",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L1_0050",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L1_0051",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L1_0052",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L1_0053",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L1_0054",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L1_0055",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L1_0056",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L1_0057",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L1_0058",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L1_0059",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L1_0060",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L1_0061",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L1_0062",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L1_0063",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0064",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L1_0065",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L1_0066",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L1_0067",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L1_0068",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L1_0069",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L1_0070",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L1_0071",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L1_0072",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L1_0073",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L1_0074",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L1_0075",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L1_0076",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0077",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L1_0078",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L1_0079",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0080",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L1_0081",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L1_0082",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L1_0083",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L1_0084",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L1_0085",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0086",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L1_0087",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L1_0088",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L1_0089",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L1_0090",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L1_0091",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L1_0092",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L1_0093",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L1_0094",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L1_0095",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0096",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L1_0097",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L1_0098",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L1_0099",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0100",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L1_0101",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L1_0102",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0103",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L1_0104",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L1_0105",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L1_0106",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L1_0107",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L1_0108",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L1_0109",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L1_0110",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0111",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L1_0112",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L1_0113",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0114",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L1_0115",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L1_0116",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L1_0117",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0118",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0119",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L1_0120",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L1_0121",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L1_0122",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L1_0123",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L1_0124",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L1_0125",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L1_0126",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L1_0127",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L1_0128",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L1_0129",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L1_0130",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L1_0131",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L1_0132",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L1_0133",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0134",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L1_0135",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L1_0136",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L1_0137",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L1_0138",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L1_0139",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L1_0140",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L1_0141",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L1_0142",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0143",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L1_0144",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L1_0145",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0146",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L1_0147",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L1_0148",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L1_0149",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L1_0150",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L1_0151",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L1_0152",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L1_0153",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L1_0154",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L1_0155",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L1_0156",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L1_0157",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L1_0158",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L1_0159",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L1_0160",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L1_0161",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L1_0162",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L1_0163",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L1_0164",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L1_0165",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L1_0166",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L1_0167",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L1_0168",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L1_0169",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L1_0170",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L1_0171",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L1_0172",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0173",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L1_0174",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L1_0175",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L1_0176",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L1_0177",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L1_0178",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L1_0179",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L1_0180",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L1_0181",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L1_0182",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L1_0183",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L1_0184",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L1_0185",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L1_0186",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L1_0187",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L1_0188",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L1_0189",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L1_0190",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L1_0191",
+      "mode": "flash",
+      "level": 1,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L1_0192",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L1_0193",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L1_0194",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L1_0195",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L1_0196",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L1_0197",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L1_0198",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L1_0199",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L1_0200",
+      "mode": "flash",
+      "level": 1,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L2_0001",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0002",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L2_0003",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0004",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0005",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0006",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L2_0007",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L2_0008",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L2_0009",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L2_0010",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0011",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L2_0012",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L2_0013",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0014",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L2_0015",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L2_0016",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L2_0017",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L2_0018",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0019",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0020",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L2_0021",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L2_0022",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L2_0023",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L2_0024",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L2_0025",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L2_0026",
+      "mode": "flash",
+      "level": 2,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L2_0027",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L2_0028",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L2_0029",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0030",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0031",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L2_0032",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L2_0033",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L2_0034",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L2_0035",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L2_0036",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0037",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L2_0038",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L2_0039",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L2_0040",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L2_0041",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L2_0042",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0043",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0044",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L2_0045",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L2_0046",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0047",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L2_0048",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L2_0049",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L2_0050",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0051",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0052",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0053",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L2_0054",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0055",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0056",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L2_0057",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0058",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L2_0059",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L2_0060",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L2_0061",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L2_0062",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L2_0063",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0064",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L2_0065",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0066",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L2_0067",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L2_0068",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L2_0069",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L2_0070",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L2_0071",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L2_0072",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0073",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L2_0074",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L2_0075",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L2_0076",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0077",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0078",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L2_0079",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L2_0080",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0081",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0082",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L2_0083",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0084",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L2_0085",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0086",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L2_0087",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L2_0088",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L2_0089",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L2_0090",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0091",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L2_0092",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L2_0093",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L2_0094",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L2_0095",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L2_0096",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L2_0097",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L2_0098",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L2_0099",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L2_0100",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L2_0101",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L2_0102",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L2_0103",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L2_0104",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L2_0105",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L2_0106",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L2_0107",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L2_0108",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L2_0109",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L2_0110",
+      "mode": "flash",
+      "level": 2,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L2_0111",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L2_0112",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0113",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L2_0114",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L2_0115",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L2_0116",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L2_0117",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L2_0118",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L2_0119",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0120",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0121",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L2_0122",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0123",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L2_0124",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L2_0125",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L2_0126",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L2_0127",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L2_0128",
+      "mode": "flash",
+      "level": 2,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L2_0129",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L2_0130",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L2_0131",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L2_0132",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L2_0133",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L2_0134",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L2_0135",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L2_0136",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L2_0137",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L2_0138",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L2_0139",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L2_0140",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L2_0141",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L2_0142",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L2_0143",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L2_0144",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L2_0145",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L2_0146",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L2_0147",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0148",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L2_0149",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L2_0150",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L2_0151",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L2_0152",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L2_0153",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L2_0154",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0155",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0156",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0157",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L2_0158",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0159",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L2_0160",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L2_0161",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0162",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0163",
+      "mode": "flash",
+      "level": 2,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L2_0164",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0165",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L2_0166",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L2_0167",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L2_0168",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L2_0169",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0170",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L2_0171",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L2_0172",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L2_0173",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L2_0174",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L2_0175",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0176",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L2_0177",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L2_0178",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L2_0179",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L2_0180",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L2_0181",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L2_0182",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0183",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L2_0184",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L2_0185",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L2_0186",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L2_0187",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L2_0188",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L2_0189",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Scarcity",
+      "question": "Define: Scarcity",
+      "answer": "The basic economic problem that resources are limited while wants are unlimited."
+    },
+    {
+      "id": "FLC_L2_0190",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L2_0191",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0192",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L2_0193",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L2_0194",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L2_0195",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Marshall\u2011Lerner condition",
+      "question": "Define: Marshall\u2011Lerner condition",
+      "answer": "The condition under which a depreciation will improve a country\u2019s trade balance."
+    },
+    {
+      "id": "FLC_L2_0196",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L2_0197",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L2_0198",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L2_0199",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L2_0200",
+      "mode": "flash",
+      "level": 2,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L3_0001",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L3_0002",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0003",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L3_0004",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L3_0005",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L3_0006",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0007",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L3_0008",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0009",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L3_0010",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L3_0011",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L3_0012",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0013",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L3_0014",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L3_0015",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L3_0016",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0017",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0018",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L3_0019",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0020",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L3_0021",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L3_0022",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L3_0023",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L3_0024",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L3_0025",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L3_0026",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L3_0027",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L3_0028",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L3_0029",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L3_0030",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L3_0031",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L3_0032",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L3_0033",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L3_0034",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L3_0035",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L3_0036",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L3_0037",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L3_0038",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0039",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0040",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L3_0041",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L3_0042",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0043",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L3_0044",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L3_0045",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L3_0046",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L3_0047",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0048",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L3_0049",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L3_0050",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0051",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L3_0052",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0053",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0054",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L3_0055",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L3_0056",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L3_0057",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0058",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L3_0059",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L3_0060",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L3_0061",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L3_0062",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L3_0063",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L3_0064",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    },
+    {
+      "id": "FLC_L3_0065",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L3_0066",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L3_0067",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0068",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0069",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0070",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L3_0071",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L3_0072",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L3_0073",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0074",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L3_0075",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0076",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0077",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0078",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Unemployment",
+      "question": "Define: Unemployment",
+      "answer": "The number of people of working age who are willing and able to work but cannot find a job."
+    },
+    {
+      "id": "FLC_L3_0079",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Income elasticity of demand",
+      "question": "Define: Income elasticity of demand",
+      "answer": "The responsiveness of demand to changes in income."
+    },
+    {
+      "id": "FLC_L3_0080",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L3_0081",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L3_0082",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Demand",
+      "question": "Define: Demand",
+      "answer": "The quantity of a good or service that consumers are willing and able to buy at different prices."
+    },
+    {
+      "id": "FLC_L3_0083",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Quantitative easing",
+      "question": "Define: Quantitative easing",
+      "answer": "A monetary policy where the central bank purchases financial assets to increase the money supply."
+    },
+    {
+      "id": "FLC_L3_0084",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L3_0085",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0086",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L3_0087",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Subsidy",
+      "question": "Define: Subsidy",
+      "answer": "A payment by the government to producers to lower costs and encourage production."
+    },
+    {
+      "id": "FLC_L3_0088",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0089",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L3_0090",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L3_0091",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L3_0092",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L3_0093",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L3_0094",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L3_0095",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L3_0096",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Comparative advantage",
+      "question": "Define: Comparative advantage",
+      "answer": "The ability of a country to produce a good at a lower opportunity cost than another country."
+    },
+    {
+      "id": "FLC_L3_0097",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L3_0098",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0099",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L3_0100",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L3_0101",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L3_0102",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L3_0103",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Deadweight loss",
+      "question": "Define: Deadweight loss",
+      "answer": "Loss of economic efficiency when equilibrium is not achieved."
+    },
+    {
+      "id": "FLC_L3_0104",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L3_0105",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L3_0106",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L3_0107",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L3_0108",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L3_0109",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L3_0110",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L3_0111",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0112",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L3_0113",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L3_0114",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L3_0115",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0116",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply\u2011side policies",
+      "question": "Define: Supply\u2011side policies",
+      "answer": "Policies aimed at increasing the productive capacity of the economy."
+    },
+    {
+      "id": "FLC_L3_0117",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L3_0118",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Balance of payments",
+      "question": "Define: Balance of payments",
+      "answer": "A record of all transactions between the residents of a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0119",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L3_0120",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0121",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0122",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0123",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L3_0124",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market equilibrium",
+      "question": "Define: Market equilibrium",
+      "answer": "The point where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "FLC_L3_0125",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "The next best alternative foregone when a choice is made."
+    },
+    {
+      "id": "FLC_L3_0126",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Gini coefficient",
+      "question": "Define: Gini coefficient",
+      "answer": "A numerical measure of income inequality derived from the Lorenz curve."
+    },
+    {
+      "id": "FLC_L3_0127",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L3_0128",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0129",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Depreciation",
+      "question": "Define: Depreciation",
+      "answer": "A decrease in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0130",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L3_0131",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Public debt",
+      "question": "Define: Public debt",
+      "answer": "The total amount of money owed by the government to creditors."
+    },
+    {
+      "id": "FLC_L3_0132",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L3_0133",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L3_0134",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Substitute goods",
+      "question": "Define: Substitute goods",
+      "answer": "Goods that can satisfy the same need, so consumers can switch between them."
+    },
+    {
+      "id": "FLC_L3_0135",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Monetary policy",
+      "question": "Define: Monetary policy",
+      "answer": "Central bank actions involving interest rates and the money supply to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0136",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Protectionism",
+      "question": "Define: Protectionism",
+      "answer": "Government policies aimed at restricting international trade to protect domestic industries."
+    },
+    {
+      "id": "FLC_L3_0137",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Supply",
+      "question": "Define: Supply",
+      "answer": "The quantity of a good or service that producers are willing and able to sell at different prices."
+    },
+    {
+      "id": "FLC_L3_0138",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L3_0139",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L3_0140",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0141",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L3_0142",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Public good",
+      "question": "Define: Public good",
+      "answer": "A good that is non\u2011excludable and non\u2011rivalrous, often provided by the government."
+    },
+    {
+      "id": "FLC_L3_0143",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Complementary goods",
+      "question": "Define: Complementary goods",
+      "answer": "Goods that are consumed together, so consumption of one increases consumption of the other."
+    },
+    {
+      "id": "FLC_L3_0144",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L3_0145",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Trade liberalisation",
+      "question": "Define: Trade liberalisation",
+      "answer": "The removal or reduction of trade barriers to encourage free trade."
+    },
+    {
+      "id": "FLC_L3_0146",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L3_0147",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L3_0148",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L3_0149",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L3_0150",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0151",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Marginal cost",
+      "question": "Define: Marginal cost",
+      "answer": "The additional cost of producing one more unit of output."
+    },
+    {
+      "id": "FLC_L3_0152",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Capital account",
+      "question": "Define: Capital account",
+      "answer": "The part of the balance of payments that records transactions in assets between a country and the rest of the world."
+    },
+    {
+      "id": "FLC_L3_0153",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L3_0154",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L3_0155",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Lorenz curve",
+      "question": "Define: Lorenz curve",
+      "answer": "A graphical representation of income distribution."
+    },
+    {
+      "id": "FLC_L3_0156",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L3_0157",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Phillips curve",
+      "question": "Define: Phillips curve",
+      "answer": "The relationship between inflation and unemployment."
+    },
+    {
+      "id": "FLC_L3_0158",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP per capita",
+      "question": "Define: GDP per capita",
+      "answer": "GDP divided by the population of a country."
+    },
+    {
+      "id": "FLC_L3_0159",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L3_0160",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L3_0161",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Market failure",
+      "question": "Define: Market failure",
+      "answer": "A situation in which the market does not allocate resources efficiently on its own."
+    },
+    {
+      "id": "FLC_L3_0162",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L3_0163",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflation",
+      "question": "Define: Inflation",
+      "answer": "A sustained increase in the general price level of goods and services in an economy over time."
+    },
+    {
+      "id": "FLC_L3_0164",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L3_0165",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Appreciation",
+      "question": "Define: Appreciation",
+      "answer": "An increase in the value of a currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0166",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L3_0167",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L3_0168",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L3_0169",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Marginal revenue",
+      "question": "Define: Marginal revenue",
+      "answer": "The additional revenue from selling one more unit of output."
+    },
+    {
+      "id": "FLC_L3_0170",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L3_0171",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L3_0172",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Current account deficit",
+      "question": "Define: Current account deficit",
+      "answer": "A situation where a country spends more on imports of goods, services and income than it earns from exports."
+    },
+    {
+      "id": "FLC_L3_0173",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Crowding out",
+      "question": "Define: Crowding out",
+      "answer": "A situation where increased government spending leads to a reduction in private sector spending."
+    },
+    {
+      "id": "FLC_L3_0174",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L3_0175",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0176",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L3_0177",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Recessionary gap",
+      "question": "Define: Recessionary gap",
+      "answer": "The amount by which potential GDP exceeds actual GDP."
+    },
+    {
+      "id": "FLC_L3_0178",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Tariff",
+      "question": "Define: Tariff",
+      "answer": "A tax on imports to protect domestic producers or raise government revenue."
+    },
+    {
+      "id": "FLC_L3_0179",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L3_0180",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Externality",
+      "question": "Define: Externality",
+      "answer": "A cost or benefit of consumption or production experienced by a third party."
+    },
+    {
+      "id": "FLC_L3_0181",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Absolute poverty",
+      "question": "Define: Absolute poverty",
+      "answer": "A condition where a person cannot meet the basic necessities of life."
+    },
+    {
+      "id": "FLC_L3_0182",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Oligopoly",
+      "question": "Define: Oligopoly",
+      "answer": "A market structure dominated by a few large firms."
+    },
+    {
+      "id": "FLC_L3_0183",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L3_0184",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Elasticity",
+      "question": "Define: Elasticity",
+      "answer": "A measure of responsiveness of one variable to a change in another variable."
+    },
+    {
+      "id": "FLC_L3_0185",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate devaluation",
+      "question": "Define: Exchange rate devaluation",
+      "answer": "A deliberate lowering of a country\u2019s currency in a fixed exchange rate system."
+    },
+    {
+      "id": "FLC_L3_0186",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate",
+      "question": "Define: Exchange rate",
+      "answer": "The price of one currency in terms of another currency."
+    },
+    {
+      "id": "FLC_L3_0187",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal policy",
+      "question": "Define: Fiscal policy",
+      "answer": "Government policy regarding taxation and spending to influence the economy."
+    },
+    {
+      "id": "FLC_L3_0188",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Opportunity cost",
+      "question": "Define: Opportunity cost",
+      "answer": "We repeated but emphasised; we will still keep duplicates for variety."
+    },
+    {
+      "id": "FLC_L3_0189",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Economic development",
+      "question": "Define: Economic development",
+      "answer": "Improvement in living standards, education, health and well\u2011being of a population."
+    },
+    {
+      "id": "FLC_L3_0190",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Inflationary gap",
+      "question": "Define: Inflationary gap",
+      "answer": "The amount by which actual GDP exceeds potential GDP."
+    },
+    {
+      "id": "FLC_L3_0191",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Terms of trade",
+      "question": "Define: Terms of trade",
+      "answer": "The ratio of a country\u2019s export prices to its import prices."
+    },
+    {
+      "id": "FLC_L3_0192",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Producer surplus",
+      "question": "Define: Producer surplus",
+      "answer": "The difference between the price producers receive and the minimum they are willing to accept."
+    },
+    {
+      "id": "FLC_L3_0193",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Fiscal deficit",
+      "question": "Define: Fiscal deficit",
+      "answer": "The difference when government spending exceeds government revenue in a year."
+    },
+    {
+      "id": "FLC_L3_0194",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Monopoly",
+      "question": "Define: Monopoly",
+      "answer": "A market structure with a single seller dominating the market."
+    },
+    {
+      "id": "FLC_L3_0195",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Structural unemployment",
+      "question": "Define: Structural unemployment",
+      "answer": "Unemployment caused by changes in the structure of the economy."
+    },
+    {
+      "id": "FLC_L3_0196",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Excise tax",
+      "question": "Define: Excise tax",
+      "answer": "A tax imposed on specific goods such as alcohol, tobacco or fuel."
+    },
+    {
+      "id": "FLC_L3_0197",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Consumer surplus",
+      "question": "Define: Consumer surplus",
+      "answer": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "id": "FLC_L3_0198",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Exchange rate regime",
+      "question": "Define: Exchange rate regime",
+      "answer": "The system a country uses to manage its currency in relation to others."
+    },
+    {
+      "id": "FLC_L3_0199",
+      "mode": "flash",
+      "level": 3,
+      "topic": "GDP",
+      "question": "Define: GDP",
+      "answer": "The total value of all final goods and services produced in an economy in a given time period."
+    },
+    {
+      "id": "FLC_L3_0200",
+      "mode": "flash",
+      "level": 3,
+      "topic": "Quota",
+      "question": "Define: Quota",
+      "answer": "A limit on the quantity of a good that can be imported."
+    }
+  ]
+};
